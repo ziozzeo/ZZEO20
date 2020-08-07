@@ -36,7 +36,7 @@ background-color:#000000; }
   grid-column: 75/95;
   text-align: right;
   padding-right: 10%;
-  padding-top: 7.8%;
+  padding-top: 8.8%;
 }
 
 .g-con-body
@@ -103,7 +103,7 @@ background-color:#000000; }
 
 .g-con-footer-mail
 {
-  grid-column: 6/21;
+  grid-column: 9/24;
   padding-top: 14%;
 }
 
@@ -131,4 +131,29 @@ h3
     font-family: 'DM Sans', sans-serif;
     color:#6DC2E8;
     font-size: 1.2rem;
+    text-decoration: none;
+}
+
+/* ————————————— ABOUT ————————————————*/
+
+.thisguy
+{
+  grid-column: 9/50;
+  font-family: 'DM Sans', sans-serif;
+  color:#6C376E;
+  font-size: 1.8rem;
+  text-decoration: none;
+}
+
+
+/* ————————————— UX/UI, DIGITAL ————————————————*/
+
+.projects
+{
+   grid-column: 6/95;
+    font-family: 'blackest';
+    font-size: 5.7rem;
+    color:#6C376E;
+    text-align:center;
+    line-height: 7%;
 }
