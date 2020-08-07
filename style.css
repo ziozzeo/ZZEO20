@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+@font-face {
+  font-family: blackest;
+  src: url(Blackest Extra Bold.otf);
+}
+
+html { font-size:100%; }
+
+body{margin: 0 auto;
+background-color:#DD435D; }
+
+.g-con
+{
+  display: grid;
+  grid-template-rows:repeat(100,1fr);
+  width:100%;
+  height:100vh;
+}
+
+.g-con-head
+{
+  grid-row: 1/16;
+  width:100%;
+  display: grid;
+  grid-template-columns:repeat(10,1fr);
+  background-color: blue;
+}
+
+.g-con-head-logo
+{
+  grid-column: 1/3;
+}
+
+.g-con-head-space
+{
+  grid-column: 3/9;
+}
+
+.g-con-head-about
+{
+  grid-column: 9/11;
+  text-align: right;
+  padding-right: 10%;
+  padding-top: 7.8%;
+}
+
+.g-con-body
+{
+  grid-row: 16/85;
+  display: grid;
+  grid-template-columns:repeat(10,1fr);
+}
+
+.g-con-footer
+{
+  grid-row: 85/101;
+  display: grid;
+  grid-template-columns:repeat(10,1fr);
+}
+
+.g-con-footer-mail
+{
+  grid-column: 1/3;
+}
+
+.g-con-footer-space
+{
+  grid-column: 3/9;
+}
+
+.g-con-footer-other
+{
+  grid-column: 9/11;
+}
+
+#homelogo
+{
+  width:25%;
+  padding:3vh;
+  stroke:#6DC2E8;
+}
+
+h1
+{
+    color:#6DC2E8;
+}
+
+h3
+{
+    font-family: 'blackest';
+    color:#6DC2E8;
+    font-size: 1.2rem;
+}
