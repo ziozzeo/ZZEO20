@@ -3,27 +3,40 @@
 <head>
 <title>ZZEO — DIGITAL DESIGNER & ILLUSTRATOR</title>
 <link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="functions.js"></script>
+<script src="grained.js"></script>
 </head>
-<body>
-  <div class="g-con">
+<body id="body">
+  <!--<div class="noise"></div>-->
+  <div class="g-con" id="guenda">
     <div class="g-con-head">
-      <div class="g-con-head-logo"><svg id="homelogo" width="100%"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 382 382"><defs><style>.cls-1,.cls-2,.cls-3{fill:none;stroke-miterlimit:10;}.cls-1{stroke-width:13px;}.cls-2{stroke-width:11px;}.cls-3{stroke-width:15px;}</style></defs><title>logo</title><circle class="cls-1" cx="117" cy="150" r="54.07"/><line class="cls-2" x1="66.25" y1="96" x2="171.25" y2="204"/><line class="cls-2" x1="62.75" y1="202.5" x2="170.75" y2="97.5"/><circle class="cls-1" cx="265" cy="150" r="54.07"/><line class="cls-2" x1="214.25" y1="96" x2="319.25" y2="204"/><line class="cls-2" x1="210.75" y1="202.5" x2="318.75" y2="97.5"/><circle class="cls-3" cx="191" cy="191" r="183.5"/><line class="cls-1" x1="83.5" y1="275" x2="298.5" y2="275"/><line class="cls-2" x1="101" y1="247.82" x2="101" y2="304.4"/><line class="cls-2" x1="137" y1="247.82" x2="137" y2="304.4"/><line class="cls-2" x1="173" y1="247.82" x2="173" y2="304.4"/><line class="cls-2" x1="209" y1="247.82" x2="209" y2="304.4"/><line class="cls-2" x1="245" y1="247.82" x2="245" y2="304.4"/><line class="cls-2" x1="281" y1="247.82" x2="281" y2="304.4"/></svg></div>
+      <div class="g-con-head-logo"><svg id="aboutlogo" onclick="backtohome()" width="100%"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 382 382"><defs><style>.cls-1,.cls-2,.cls-3{fill:none;stroke-miterlimit:10;}.cls-1{stroke-width:13px;}.cls-2{stroke-width:11px;}.cls-3{stroke-width:15px;}</style></defs><title>logo</title><circle class="cls-1" cx="117" cy="150" r="54.07"/><line class="cls-2" x1="66.25" y1="96" x2="171.25" y2="204"/><line class="cls-2" x1="62.75" y1="202.5" x2="170.75" y2="97.5"/><circle class="cls-1" cx="265" cy="150" r="54.07"/><line class="cls-2" x1="214.25" y1="96" x2="319.25" y2="204"/><line class="cls-2" x1="210.75" y1="202.5" x2="318.75" y2="97.5"/><circle class="cls-3" cx="191" cy="191" r="183.5"/><line class="cls-1" x1="83.5" y1="275" x2="298.5" y2="275"/><line class="cls-2" x1="101" y1="247.82" x2="101" y2="304.4"/><line class="cls-2" x1="137" y1="247.82" x2="137" y2="304.4"/><line class="cls-2" x1="173" y1="247.82" x2="173" y2="304.4"/><line class="cls-2" x1="209" y1="247.82" x2="209" y2="304.4"/><line class="cls-2" x1="245" y1="247.82" x2="245" y2="304.4"/><line class="cls-2" x1="281" y1="247.82" x2="281" y2="304.4"/></svg></div>
       <div class="g-con-head-space"></div>
-      <div class="g-con-head-about"><h3>about</h3></div>
+      <div class="g-con-head-about"><h3><a href="about.html">about</a></h3></div>
     </div>
 
     <div class="g-con-body">
     <div class="thisguy"><br><br><br>Luca Mazzeo, ’95 class.<br>
     I’m an italian Digital Designer and Freelance Illustrator actually based in Milan.<br><br>
-    Previously worked at C’BA as UX/UI and freelanced with the Goldengoose brand,
-    always open for commissions.<br><br>
-    Website designed & coded all by myself. ;*</div>
+    Previously worked at <a  id="clients" href="https://www.cba-design.it/" target="_blank">CBA</a> as UX/UI and freelanced with the <a href="https://www.goldengoose.com/" id="clients" target="_blank">Goldengoose</a> brand,
+    always open for commissions.<br><br>Website designed & coded all by myself.<br></div>
+    <div class="socialcv">
+    <div class="whoszzeo">CATCH ME ON</div><div class="hr"><hr class="hrstyle"></div>
+    <h3 id="campiabout"><a href="https://www.linkedin.com/in/luca-mazzeo-7856a0193/" target="_blank">LinkedIn</a></h3>
+    <div class="hr"><hr class="hrstyle"></div>
+    <h3 id="campiabout"><a href="https://www.behance.net/lucamazzeo" target="_blank">Behance (Digital Design)</a></h3>
+    <h3 id="campiabout"><a href="https://www.instagram.com/zzxxeo/" target="_blank">Instagram (Digital Design)</a></h3>
+    <div class="hr"><hr class="hrstyle"></div>
+    <h3 id="campiabout"><a href="https://www.behance.net/lucamazzeo1" target="_blank">Behance (Illustration)</a></h3>
+    <h3 id="campiabout"><a href="https://www.instagram.com/zzeoluca/" target="_blank">Instagram (Illustration)</a></h3>
+    </div>
     </div>
 
     <div class="g-con-footer">
-      <div class="g-con-footer-mail"><h3>zzeoluca@gmail.com</h3></div>
+      <div class="hr"><hr class="hrstyle"></div>
+      <div class="g-con-footer-mail"><a href="mailto:zzeoluca4@gmail.com">zzeoluca4@gmail.com</a></div>
       <div class="g-con-footer-space"></div>
-      <div class="g-con-footer-other"><h3>tua madre caga uccelli</h3></div>
+      <div class="g-con-footer-other"></div>
     </div>
   </div>
 </body>
