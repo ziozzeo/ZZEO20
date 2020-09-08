@@ -10,7 +10,7 @@ a:hover
 {cursor:pointer;}
 
 body{margin: 0 auto;
-  background-image: url("bg.png"),linear-gradient(0deg, rgba(215,197,255,1) 0%, rgba(0,0,0,1) 90%);
+  background-image: linear-gradient(0deg, rgba(215,197,255,1) 0%, rgba(0,0,0,1) 90%);
   background-size: 100vw;
   -webkit-user-select: none;
   -moz-user-select: none;
