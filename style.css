@@ -358,3 +358,16 @@ h3, .g-con-footer-mail, .g-con-footer-mailuxui, .g-con-footer-mailillu, .g-con-f
 {
   width:100%;
 }
+
+.noise {
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    pointer-events: none;
+    opacity: .06;
+}
