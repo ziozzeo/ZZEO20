@@ -10,7 +10,7 @@ a:hover
 {cursor:pointer;}
 
 body{margin: 0 auto;
-  background-image: linear-gradient(0deg, rgba(215,197,255,1) 0%, rgba(0,0,0,1) 90%);
+  background-image: linear-gradient(0deg, rgba(172,157,199,1) 0%, rgba(0,0,0,1) 90%);
   background-size: 100vw;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -359,15 +359,7 @@ h3, .g-con-footer-mail, .g-con-footer-mailuxui, .g-con-footer-mailillu, .g-con-f
   width:100%;
 }
 
-.noise {
-    z-index: 100;
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    width: 100%;
-    height: 100%;
-
-    pointer-events: none;
-    opacity: .06;
+.grained
+{
+  pointer-events: none!important;
 }
