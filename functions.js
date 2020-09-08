@@ -5,17 +5,6 @@ function backtohome()
   });
 }
 
-var options = {
-        animate: true,
-        patternWidth: 100,
-        patternHeight: 100,
-        grainOpacity: 0.05,
-        grainDensity: 1,
-        grainWidth: 1,
-        grainHeight: 1
-};
-
-
 function bgcambia(x,y)
 {
   var stringa=(y+"bg.png");
@@ -69,3 +58,15 @@ function loaderAway() {
         ease: 'power4.inOut'
     });
 }
+
+var options = {
+        animate: true,
+        patternWidth: 100,
+        patternHeight: 100,
+        grainOpacity: 0.05,
+        grainDensity: 1,
+        grainWidth: 1,
+        grainHeight: 1
+};
+
+grained('#body',options);
