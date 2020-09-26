@@ -5,34 +5,45 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 <script type="text/javascript" src="functions.js"></script>
 </head>
-<body id="body">
+<!DOCTYPE html>
+<html>
+<head>
+<title>ZZEO — DIGITAL DESIGNER & ILLUSTRATOR</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body id="body" data-barba="wrapper">
   <canvas id="noise-canvas"></canvas>
-  <div class="g-con">
-    <div class="g-con-head">
-      <div class="g-con-head-logo"><svg id="projectslogo" onclick="backtohome()" width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 382 382"><defs><style>.cls-1,.cls-2,.cls-3{fill:none;stroke-miterlimit:10;}.cls-1{stroke-width:13px;}.cls-2{stroke-width:11px;}.cls-3{stroke-width:15px;}</style></defs><title>logo</title><circle class="cls-1" cx="117" cy="150" r="54.07"/><line class="cls-2" x1="66.25" y1="96" x2="171.25" y2="204"/><line class="cls-2" x1="62.75" y1="202.5" x2="170.75" y2="97.5"/><circle class="cls-1" cx="265" cy="150" r="54.07"/><line class="cls-2" x1="214.25" y1="96" x2="319.25" y2="204"/><line class="cls-2" x1="210.75" y1="202.5" x2="318.75" y2="97.5"/><circle class="cls-3" cx="191" cy="191" r="183.5"/><line class="cls-1" x1="83.5" y1="275" x2="298.5" y2="275"/><line class="cls-2" x1="101" y1="247.82" x2="101" y2="304.4"/><line class="cls-2" x1="137" y1="247.82" x2="137" y2="304.4"/><line class="cls-2" x1="173" y1="247.82" x2="173" y2="304.4"/><line class="cls-2" x1="209" y1="247.82" x2="209" y2="304.4"/><line class="cls-2" x1="245" y1="247.82" x2="245" y2="304.4"/><line class="cls-2" x1="281" y1="247.82" x2="281" y2="304.4"/></svg></div>
-      <div class="g-con-head-space"></div>
-      <div class="g-con-head-about"><h3><a href="about.html">about</a></h3></div>
-    </div>
+<div class="g-con" id="g-con">
+  <div id="acab"><svg id="hoverlogo"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 382 382"><defs><style>.cls-1,.cls-2,.cls-3{fill:none;stroke-miterlimit:10;}.cls-1{stroke-width:13px;}.cls-2{stroke-width:11px;}.cls-3{stroke-width:15px;}</style></defs><title>logo</title><circle class="cls-1" cx="117" cy="150" r="54.07"/><line class="cls-2" x1="66.25" y1="96" x2="171.25" y2="204"/><line class="cls-2" x1="62.75" y1="202.5" x2="170.75" y2="97.5"/><circle class="cls-1" cx="265" cy="150" r="54.07"/><line class="cls-2" x1="214.25" y1="96" x2="319.25" y2="204"/><line class="cls-2" x1="210.75" y1="202.5" x2="318.75" y2="97.5"/><circle class="cls-3" cx="191" cy="191" r="183.5"/><line class="cls-1" x1="83.5" y1="275" x2="298.5" y2="275"/><line class="cls-2" x1="101" y1="247.82" x2="101" y2="304.4"/><line class="cls-2" x1="137" y1="247.82" x2="137" y2="304.4"/><line class="cls-2" x1="173" y1="247.82" x2="173" y2="304.4"/><line class="cls-2" x1="209" y1="247.82" x2="209" y2="304.4"/><line class="cls-2" x1="245" y1="247.82" x2="245" y2="304.4"/><line class="cls-2" x1="281" y1="247.82" x2="281" y2="304.4"/></svg>
+  </div>
 
-    <div class="g-con-body">
-    <div class="hereforillu"><br><br>SELECTED ILLUSTRATION PROJECTS</div>
-    <div class="projects"onmouseover="bgcambia(this,'cds')" onmouseout="ripristina(this)"><a href="circus.html" id="arr">CIRCUS DEADLY SINS</a></div>
-    <div class="projects"onmouseover="bgcambia(this,'bandana')" onmouseout="ripristina(this)"><a href="" id="arr">VARIOUS 2020</a></div>
-    <div class="projects"onmouseover="bgcambia(this,'bandana')" onmouseout="ripristina(this)"><a href="" id="arr">UKNOWHATIMSAYIN?</a></div>
-    <div class="projects"onmouseover="bgcambia(this,'bandana')" onmouseout="ripristina(this)"><a href="" id="arr">HEVNKILLRS</a></div>
-    </div>
+  <div class="g-con-showcase" data-barba="container" data-barba-namespace="home">
+    <div class="sc">
+    <div class="sc1" onclick="hreffazio('circus.html')" onmouseover="projhover(1,1)" onmouseout="projhover(2,1)"><div class="imgcontain1"><div class="imgdoom1"></div></div><div id="projtitle">CIRCUS DEADLY SINS (1—7)</div><div id="date">DECEMBER 2019 —</div><div id="type">OCTOBER 2020</div></div>
+    <div class="sc2" onmouseover="projhover(1,2)" onmouseout="projhover(2,2)"><div class="imgcontain2"><div class="imgdoom2"></div></div><div id="projtitle">RANDOM FOLIO #001</div><div id="date">DECEMBER 2019 —</div><div id="type">OCTOBER 2020</div></div>
+    <div class="sc3" onmouseover="projhover(1,3)" onmouseout="projhover(2,3)"><div class="imgcontain3"><div class="imgdoom3"></div></div><div id="projtitle">RANDOM FOLIO #002</div><div id="date">DECEMBER 2019 —</div><div id="type">OCTOBER 2020</div></div>
+    <div class="sc4" onmouseover="projhover(1,4)" onmouseout="projhover(2,4)"><div class="imgcontain4"><div class="imgdoom4"></div></div><div id="projtitle">THE HEVNKILLRS PROJECT</div><div id="date">DECEMBER 2019 —</div><div id="type">OCTOBER 2020</div></div>
+  </div>
+  </div>
 
-    <div class="g-con-footer">
-      <div class="hr"><hr class="hrstyle"></div>
-      <div class="g-con-footer-mail"><a href="mailto:zzeoluca4@gmail.com">zzeoluca4@gmail.com</a></div>
-      <div class="g-con-footer-space"></div>
-      <div class="g-con-footer-other"><a href="uxui.html">switch to UX/UI</a></div>
+    <div class="g-con-menu">
+      <div class="space"><p id="menu">
+        <a onmouseover="ov(1)" onmouseout="ov(2)">ILLUSTRATION</a> —
+        <a href="uxui.html" onmouseover="ov(1)" onmouseout="ov(2)">DIGITAL</a> —
+        <a href="" onmouseover="ov(1)" onmouseout="ov(2)">ABOUT</a> —
+        <a href="mailto:zzeoluca@gmail.com" onmouseover="ov(1)" onmouseout="ov(2)">CONTACT</a> —
+        <a onmouseover="ov(1)" onmouseout="ov(2)">ILLUSTRATION</a> —
+        <a href="uxui.html" onmouseover="ov(1)" onmouseout="ov(2)">DIGITAL</a> —
+        <a href="" onmouseover="ov(1)" onmouseout="ov(2)">ABOUT</a> —
+        <a href="mailto:zzeoluca@gmail.com" onmouseover="ov(1)" onmouseout="ov(2)">CONTACT</a></p></div>
     </div>
   </div>
+
 </body>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://unpkg.com/@barba/core"></script>
-<script type="text/javascript"src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+<script src="functions.js"></script>
 <script>noise();</script>
 </html>
