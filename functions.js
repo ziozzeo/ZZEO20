@@ -165,6 +165,14 @@ const noise = () => {
     })();
 };
 
+function scrollingbar() {
+  var winScroll = document.getElementById("devoscrollare").scrollTop;
+  var height = document.getElementById("devoscrollare").scrollHeight - document.getElementById("devoscrollare").clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+
+
 
 // ————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 // ————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
