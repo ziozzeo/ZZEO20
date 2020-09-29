@@ -39,6 +39,12 @@
         <a href="mailto:zzeoluca@gmail.com" onmouseover="ov(1)" onmouseout="ov(2)">CONTACT</a></p></div>
     </div>
   </div>
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+
+<script>
+gsap.from('.imgcontain1,.imgcontain2,.imgcontain3,.imgcontain4',{clipPath:"polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%)", duration:1, ease:"Power2.easeInOut", delay:.5})
+gsap.from('#projtitle,#date,#type',{opacity:0, duration:1, ease:"Power2.easeInOut",x:-15,delay:.2})
+</script>
 
 </body>
 

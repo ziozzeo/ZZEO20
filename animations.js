@@ -128,7 +128,7 @@ barba.init({
   transitions: [{
 
     async enter(data){
-      TweenMax.to(".imgcontain1, .imgcontain2, .imgcontain3, .imgcontain4", 1, {clipPath:"polygon(0% 0, 100% 0%, 100% 100%, 0 100%)"})
+      TweenMax.to(".imgcontain1, .imgcontain2, .imgcontain3, .imgcontain4", 2, {clipPath:"polygon(0% 0, 100% 0%, 100% 100%, 0 100%)"})
     }
 
   }]

@@ -193,7 +193,7 @@ body
   position: relative;
   float: left;
   display: inline-block;
-  clip-path: polygon(100% 100%, 100% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
 
 .imgzoom1, .imgzoom2, .imgzoom3, .imgzoom4,.imgdoom1, .imgdoom2, .imgdoom3, .imgdoom4
