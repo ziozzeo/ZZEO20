@@ -108,6 +108,7 @@ body
   overflow-x: hidden;
   transform:rotate(-90deg) translateY(-40vw);
   transform-origin: right top;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
 
 .g-con-showcazz > div
