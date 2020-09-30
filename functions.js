@@ -56,3 +56,10 @@ function projhover(verif,nsc)
     document.getElementsByTagName('head')[0].appendChild(style);
   }
 }
+
+function scrollingbar() {
+  var winScroll = document.getElementById("devoscrollare").scrollTop;
+  var height = document.getElementById("devoscrollare").scrollHeight - document.getElementById("devoscrollare").clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}

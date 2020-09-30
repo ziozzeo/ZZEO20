@@ -104,32 +104,3 @@ const noise = () => {
         setup();
     })();
 };
-
-function scrollingbar() {
-  var winScroll = document.getElementById("devoscrollare").scrollTop;
-  var height = document.getElementById("devoscrollare").scrollHeight - document.getElementById("devoscrollare").clientHeight;
-  var scrolled = (winScroll / height) * 100;
-  document.getElementById("myBar").style.width = scrolled + "%";
-}
-
-
-
-// ————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
-// ————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
-// ——————————————————————————————————————————————————————TRANSIZIONI———————————————————————————————————————————————————————————————
-// ————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
-// ————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
-
-
-barba.init({
-
-  sync: true,
-
-  transitions: [{
-
-    async enter(data){
-      TweenMax.to(".imgcontain1, .imgcontain2, .imgcontain3, .imgcontain4", 1, {clipPath:"polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)"})
-    }
-
-  }]
-})
