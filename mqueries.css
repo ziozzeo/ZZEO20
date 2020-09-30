@@ -1,0 +1,36 @@
+/* ———————————————————— < 1440x900 (Desktop) ———————————————————— */
+
+@media screen and (max-height: 700px)
+{
+  #menu{font-size: 12vh;margin-top: 8.9vh;}
+
+  #desc
+  {
+    padding-top: 1.5vh;
+    font-size: 0.85rem;
+    line-height: 1.4rem;
+  }
+
+  #campiabout a{font-size: 1rem;line-height: 1rem;}
+
+  #projtitle{font-size: 4.7vh;line-height: 2.3rem;}
+
+  #date, #type{font-size:2.5vh;line-height: 3.2vh;}
+
+  #date{margin-top: 1.3vh;}
+
+  #homelogo{width:42vh;}
+
+  #catg{font-size: 3vh;}
+
+  #titlefoglia{font-size: 11vh;line-height: 12vh;}
+
+  #desc{font-size: 2.2vh;line-height: 4vh;}
+
+  .g-con-showcazz{margin-top: 4vh;width: 78vh;}
+
+
+
+}
+
+/* ———————————————————— < 1680x1050 ———————————————————— */

@@ -3,7 +3,7 @@
 <head>
 <title>ZZEO — DIGITAL DESIGNER & ILLUSTRATOR</title>
 <link rel="stylesheet" type="text/css" href="style.css">
-<link rel="stylesheet" href="dist/smooth-scrollbar.css">
+<link rel="stylesheet" type="text/css" href="mqueries.css">
 </head>
 <body data-barba="wrapper" id="myscrollbar">
   <canvas id="noise-canvas"></canvas>
@@ -49,8 +49,4 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 <script src="animations.js"></script>
 <script>noise();</script>
 <script>document.getElementById("devoscrollare").onscroll = function() {scrollingbar()};</script>
-<script>
-import Scrollbar from 'smooth-scrollbar';
-var options={'damping':0.001}
-Scrollbar.init(document.querySelector('#myscrollbar'), options);
 </html>
