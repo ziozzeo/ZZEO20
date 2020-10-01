@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ZZEO — DIGITAL DESIGNER & ILLUSTRATOR</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="mqueries.css">
+</head>
+<body id="myscrollbar">
+  <canvas id="noise-canvas"></canvas>
+<div class="g-con" id="g-con">
+  <div id="acab"><svg id="hoverlogo"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 382 382"><defs><style>.cls-1,.cls-2,.cls-3{fill:none;stroke-miterlimit:10;}.cls-1{stroke-width:13px;}.cls-2{stroke-width:11px;}.cls-3{stroke-width:15px;}</style></defs><title>logo</title><circle class="cls-1" cx="117" cy="150" r="54.07"/><line class="cls-2" x1="66.25" y1="96" x2="171.25" y2="204"/><line class="cls-2" x1="62.75" y1="202.5" x2="170.75" y2="97.5"/><circle class="cls-1" cx="265" cy="150" r="54.07"/><line class="cls-2" x1="214.25" y1="96" x2="319.25" y2="204"/><line class="cls-2" x1="210.75" y1="202.5" x2="318.75" y2="97.5"/><circle class="cls-3" cx="191" cy="191" r="183.5"/><line class="cls-1" x1="83.5" y1="275" x2="298.5" y2="275"/><line class="cls-2" x1="101" y1="247.82" x2="101" y2="304.4"/><line class="cls-2" x1="137" y1="247.82" x2="137" y2="304.4"/><line class="cls-2" x1="173" y1="247.82" x2="173" y2="304.4"/><line class="cls-2" x1="209" y1="247.82" x2="209" y2="304.4"/><line class="cls-2" x1="245" y1="247.82" x2="245" y2="304.4"/><line class="cls-2" x1="281" y1="247.82" x2="281" y2="304.4"/></svg>
+  </div>
+
+<div class="header"><div class="progress-container"><div class="progress-bar" id="myBar"></div></div></div>
+    <div class="g-con-showcazz" id="devoscrollare">
+
+    <div id="testo"><div id="catg">CONCEPT</div><div id="titlefoglia">IMPERIAL FASHION</div><div><hr></div><div id="desc">In this series my goal was to combine two different thematic worlds in a 7-panel collection: the result is a </div></div>
+      <div id="cdsshow1"><img src="CDS01.png" id="imgfix"></div>
+      <div id="cdsshow2"><img src="CDS02.png" id="imgfix"></div>
+      <div id="cdsshow3"><img src="CDS03.png" id="imgfix"></div>
+      <div id="cdsshow4"><img src="CDS04.png" id="imgfix"></div>
+      <div id="cdsshow5"><img src="CDS05.png" id="imgfix"></div>
+      <div id="cdsshow6"><img src="CDS06.png" id="imgfix"></div>
+  </div>
+
+  <div class="g-con-menu">
+    <div class="space"><p id="menu">
+      <a href="illu.html" onmouseover="ov(1)" onmouseout="ov(2)">ILLUSTRATION</a> —
+      <a href="uxui.html" onmouseover="ov(1)" onmouseout="ov(2)">DIGITAL</a> —
+      <a href="about.html" onmouseover="ov(1)" onmouseout="ov(2)">ABOUT</a> —
+      <a href="mailto:zzeoluca@gmail.com" onmouseover="ov(1)" onmouseout="ov(2)">CONTACT</a> —
+      <a href="illu.html" onmouseover="ov(1)" onmouseout="ov(2)">ILLUSTRATION</a> —
+      <a href="uxui.html" onmouseover="ov(1)" onmouseout="ov(2)">DIGITAL</a> —
+      <a href="about.html" onmouseover="ov(1)" onmouseout="ov(2)">ABOUT</a> —
+      <a href="mailto:zzeoluca@gmail.com" onmouseover="ov(1)" onmouseout="ov(2)">CONTACT</a></p></div>
+  </div>
+
+    </div>
+  </div>
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://unpkg.com/@barba/core"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+<script src="functions.js"></script>
+<script src="animations.js"></script>
+<script>noise();</script>
+<script>/*gsap.from('.g-con-showcazz',{clipPath:"polygon(100% 0%, 100% 100%, 100% 100%, 100% 0%)", duration:1, ease:"Power2.easeInOut", delay:1, })*/</script>
+<script>document.getElementById("devoscrollare").onscroll = function() {scrollingbar()};</script>
+</html>

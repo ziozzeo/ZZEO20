@@ -1,4 +1,4 @@
-/* ———————————————————— < 1440x900 (Desktop) ———————————————————— */
+/* ———————————————————— < 1440x900 (Desktop) ———————————————————— 
 
 @media screen and (max-height: 700px)
 {
@@ -29,9 +29,9 @@
 
   .g-con-showcazz{margin-top: 4vh;width: 78vh;}
 
-}
+}*/
 
-/* ———————————————————— < 1920x1080 ———————————————————— */
+/* ———————————————————— < 1920x1080 ———————————————————— 
 
 @media screen and (max-height: 1080px)
 {
@@ -56,9 +56,9 @@
 
   .g-con-showcazz{margin-top: 5vh;width: 85vh;}
 
-}
+}*/
 
-
+/*
 @media screen and (max-height: 900px)
 {
   #menu{font-size: 11vh;margin-top: 8.9vh;}
@@ -87,8 +87,10 @@
 
 
 
-@media screen and (max-width: 375px)
+@media screen and (max-width: 414px)
 {
   .g-con-menu{display:none;}
+  #homelogo{width:42vw;}
 
 }
+*/
