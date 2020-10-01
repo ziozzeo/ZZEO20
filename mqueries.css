@@ -29,8 +29,66 @@
 
   .g-con-showcazz{margin-top: 4vh;width: 78vh;}
 
+}
 
+/* ———————————————————— < 1920x1080 ———————————————————— */
+
+@media screen and (max-height: 1080px)
+{
+  #menu{font-size: 11vh;margin-top: 8.9vh;}
+  .whoszzeo{font-size:12vh;line-height: 11vh;}
+
+  #campiabout a{font-size: 1.5rem;line-height: 2.5rem;}
+
+  #projtitle{font-size: 5vh;line-height: 5vh;}
+
+  #date, #type{font-size:2.5vh;line-height: 3.2vh;}
+
+  #date{margin-top: 1.3vh;}
+
+  #homelogo{width:42vh;}
+
+  #catg{font-size: 2.3vh;}
+
+  #titlefoglia{font-size: 11vh;line-height: 12vh;}
+
+  #desc{font-size: 2vh;line-height: 3.5vh;}
+
+  .g-con-showcazz{margin-top: 5vh;width: 85vh;}
 
 }
 
-/* ———————————————————— < 1680x1050 ———————————————————— */
+
+@media screen and (max-height: 900px)
+{
+  #menu{font-size: 11vh;margin-top: 8.9vh;}
+  .whoszzeo{font-size:12vh;line-height: 11vh;}
+
+  #campiabout a{font-size: 1.5rem;line-height: 2.5rem;}
+
+  #projtitle{font-size: 5vh;line-height: 5vh;}
+
+  #date, #type{font-size:2.5vh;line-height: 3.2vh;}
+
+  #date{margin-top: 1.3vh;}
+
+  #homelogo{width:25%;}
+
+  #catg{font-size: 2.3vh;}
+
+  #titlefoglia{font-size: 11vh;line-height: 12vh;}
+
+  #desc{font-size: 2vh;line-height: 3.5vh;}
+
+  .g-con-showcazz{  margin-top: 6.5vh;
+    width: 72vh;}
+
+}
+
+
+
+@media screen and (max-width: 375px)
+{
+  .g-con-menu{display:none;}
+
+}

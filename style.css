@@ -339,7 +339,7 @@ body
 }
 
 .progress-bar {
-  height: 5px;
+  height: 7px;
   background: #000;
   width: 0%;
 }
@@ -383,3 +383,14 @@ body
 #sltshow5{margin-top: 10vw; margin-bottom: -8vw;}
 
 /* ——————————————— THE HEVNKILLRS PROJECT ———————————————— */
+
+
+
+
+
+
+
+
+
+/* ——————————————— HIDE MOBILE ———————————————— */
+.g-con-menu-mob{display:none;}
