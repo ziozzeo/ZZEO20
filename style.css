@@ -308,6 +308,14 @@ body
   opacity: .14;
 }
 
+.black
+{z-index:101;
+  pointer-events: none;
+  width:100vw;
+height:100vh;
+position: absolute;
+background-color:#000;}
+
 #showspace
 {
     width: auto;

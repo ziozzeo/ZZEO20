@@ -1,9 +1,14 @@
+
 function hreffazio(link)
 {
+  gsap.fromTo('.black',{opacity:0},{opacity:1,duration:.4})
   $(document).ready(function(){
+    setTimeout(function(){
       window.location.href = link;
+    }, 600);
   });
 }
+
 
 function ov(verif){
 

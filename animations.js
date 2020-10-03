@@ -108,3 +108,4 @@ const noise = () => {
 
 // GSAP ANIMATIONS
 gsap.fromTo('.imgcontain1,.imgcontain2,.imgcontain3,.imgcontain4', {clipPath:'polygon(0% 0%, 0% 0%, 0% 100%, 0 100%)'}, {clipPath:'polygon(0% 0%, 100% 0%, 100% 100%, 0 100%)', duration:1, delay:1, ease: 'power2'})
+gsap.fromTo('.black',{opacity:1},{opacity:0,duration:1.6})
