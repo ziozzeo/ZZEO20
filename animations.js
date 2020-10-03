@@ -104,3 +104,8 @@ const noise = () => {
         setup();
     })();
 };
+
+
+// GSAP ANIMATIONS
+
+gsap.from('.sc1,.sc2,.sc3,.sc4',{duration:.4, y:'-100%', opacity:0, ease:'power2', delay:1, stagger:.5})
