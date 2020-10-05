@@ -11,25 +11,6 @@ function hreffazio(link)
 
 }
 
-function prova()
-{
-  document.onreadystatechange = function () {
-   
-    var state = document.readyState
-  if (state == 'interactive') {
-    
-       
-  } else if (state == 'complete') {
-
-    setTimeout(function(){
-      document.getElementById('g-con').style.backgroundColor="blue";
-    }, 1000);
-  }
-  
-  };
-}
-
-
 function ov(verif){
 
 if(verif==1)
