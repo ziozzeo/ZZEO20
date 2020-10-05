@@ -28,6 +28,7 @@
   font-size:13vw;
   padding-bottom: 6vh;
   line-height: 8vh;
+  letter-spacing: -1px;
 }
 
 #noise-canvas
