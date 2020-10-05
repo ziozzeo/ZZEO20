@@ -33,6 +33,7 @@
 .g-con
 {
   height:100%;
+  background-color: red;
 }
 
 #noise-canvas
