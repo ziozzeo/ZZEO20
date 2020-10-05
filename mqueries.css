@@ -6,7 +6,7 @@
 
   .g-con-showcase
 {
-  grid-row: 1/45;
+  grid-row: 1/35;
 }
 
 #homelogo
@@ -19,7 +19,7 @@
 }
 
   .g-con-menu{display:none;}
-  .g-con-menu-mob{grid-row: 45/102;}
+  .g-con-menu-mob{grid-row: 35/102;}
   .g-con-menu-mob{display: inline;}
 
   #menumob
@@ -27,7 +27,7 @@
   font-family: 'blackest';
   font-size:13vw;
   padding-bottom: 6vh;
-  line-height: 12vh;
+  line-height: 8vh;
 }
 
 #noise-canvas
