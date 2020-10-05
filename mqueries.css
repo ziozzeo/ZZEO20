@@ -31,6 +31,11 @@
   letter-spacing: -1px;
 }
 
+.g-con
+{
+  height:100%;
+}
+
 #noise-canvas
 {
   opacity: .24;
