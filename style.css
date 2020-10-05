@@ -1,6 +1,6 @@
 /* ——————————————————————————————— CUSTOM FONTS ———————————————————————————————*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-@font-face {font-family: blackest; src: url(Blackest Bold.otf);}
+@font-face {font-family: blackest; src: url(Blackest-Bold-19182/Web Fonts/Blackest Bold/Blackest-Bold.ttf);}
 /* ——————————————————————————————————————————————————————————————*/
 
 /* ——————————————————————————————— LINK E IMMAGINI, IMPOSTAZIONI BASE ———————————————————————————————*/
@@ -402,3 +402,5 @@ background-color:#000;}
 
 /* ——————————————— HIDE MOBILE ———————————————— */
 .g-con-menu-mob{display:none;}
+
+
