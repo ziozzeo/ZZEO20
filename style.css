@@ -264,14 +264,15 @@ body
 
 /* ————————————— ABOUT ————————————————*/
 
-.whoszzeo
+.whoszzeo1, .whoszzeo2
 {
-  padding-top: 2.5vh;
-  padding-bottom: 1vh;
   font-family: 'blackest';
   font-size: 5rem;
   line-height: 4.8rem;
 }
+
+.whoszzeo2{padding-bottom: 1vh;}
+.whoszzeo1{padding-top: 2.5vh;}
 
 /* ———————————————— UX/UI, DIGITAL ————————————————*/
 
@@ -379,8 +380,7 @@ background-color:#000;}
 #nwtshow1{margin-top: 5vw;}
 #nwtshow2{margin-left: -6vh;margin-top: 12vw;}
 #nwtshow3{margin-top: 9vw;}
-#nwtshow4{margin-top: 9vw;}
-#nwtshow5{margin-top: 10vw; margin-bottom: -8vw;}
+#nwtshow4{margin-top: 9vw; margin-bottom: -10vw;}
 
 /* ——————————————— SOME LOCKDOWN TRIALS ———————————————— */
 
@@ -392,13 +392,20 @@ background-color:#000;}
 
 /* ——————————————— THE HEVNKILLRS PROJECT ———————————————— */
 
+#hvnshow,#hvnshowfin{margin-top: 8vw;}
+#hvnshowfin{margin-bottom: -10vw;}
 
 
 
 
+/* ——————————————— ZZ-EO.COM, 2019 EDITION ———————————————— */
 
-
-
+#zzshow1{margin-left: -44vh; margin-top: 28vw;}
+#zzshow2{margin-left: -44vh;margin-top: 34vw;}
+#zzshow3{margin-left: -44vh;margin-top: 34vw;}
+#zzshow4{margin-left: -44vh; margin-top: 34vw;margin-bottom: -20vw;}
+#zzshow5{margin-left: -44vh;margin-top: 34vw;}
+#zzshow6{margin-left: -44vh; margin-top: 34vw;}
 
 /* ——————————————— HIDE MOBILE ———————————————— */
 .g-con-menu-mob{display:none;}

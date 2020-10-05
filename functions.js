@@ -2,6 +2,7 @@
 function hreffazio(link)
 {
   gsap.fromTo('.black',{opacity:0},{opacity:1,duration:.4})
+  gsap.fromTo('#acab',{opacity:1},{opacity:0,duration:.2})
   $(document).ready(function(){
     setTimeout(function(){
       window.location.href = link;
