@@ -20,7 +20,7 @@
 
   .g-con-menu{display:none;}
   .g-con-menu-mob{grid-row: 35/102;}
-  .g-con-menu-mob{display: inline;}
+  .g-con-menu-mob{display: inline;margin-left: 4vw;}
 
   #menumob
 {
