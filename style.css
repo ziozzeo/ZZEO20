@@ -140,15 +140,23 @@ body
   line-height: 1.5rem;
 }
 
-#titlefoglia
+#titlefoglia, #titlefoglia2, #stitlefoglia, #stitlefoglia2, #stitlefoglia3
 {
   font-family: 'blackest';
   font-size: 5rem;
   line-height: 5.2rem;
   color:#000;
   letter-spacing: -1px;
-  padding-bottom: 2.5vh;
+  
 }
+
+#titlefoglia{padding-bottom: 1vh;}
+#titlefoglia2{padding-bottom: 2.5vh;}
+
+#stitlefoglia{padding-bottom: 1vh;}
+#stitlefoglia2{padding-bottom: 1vh;}
+#stitlefoglia3{padding-bottom: 0.5vh;}
+
 
 #desc
 {
@@ -226,6 +234,9 @@ body
   grid-row: 86/102;
   border-top:1px solid black;
 }
+
+.g-con-menu-mob
+{display:none;}
 
 #menu
 {
@@ -414,7 +425,5 @@ background-color:#000;}
 #zzshow5{margin-left: -44vh;margin-top: 34vw;}
 #zzshow6{margin-left: -44vh; margin-top: 34vw;}
 
-/* ——————————————— HIDE MOBILE ———————————————— */
-.g-con-menu-mob{display:none;}
 
 

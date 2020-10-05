@@ -1,96 +1,28 @@
-/* ———————————————————— < 1440x900 (Desktop) ———————————————————— 
-
-@media screen and (max-height: 700px)
+@media only screen and (max-width: 600px)
 {
-  #menu{font-size: 12vh;margin-top: 8.9vh;}
 
-  #desc
-  {
-    padding-top: 1.5vh;
-    font-size: 0.85rem;
-    line-height: 1.4rem;
-  }
-
-  #campiabout a{font-size: 1rem;line-height: 1rem;}
-
-  #projtitle{font-size: 4.7vh;line-height: 2.3rem;}
-
-  #date, #type{font-size:2.5vh;line-height: 3.2vh;}
-
-  #date{margin-top: 1.3vh;}
-
-  #homelogo{width:42vh;}
-
-  #catg{font-size: 3vh;}
-
-  #titlefoglia{font-size: 11vh;line-height: 12vh;}
-
-  #desc{font-size: 2.2vh;line-height: 4vh;}
-
-  .g-con-showcazz{margin-top: 4vh;width: 78vh;}
-
-}*/
-
-/* ———————————————————— < 1920x1080 ———————————————————— 
-
-@media screen and (max-height: 1080px)
+  .g-con-showcase
 {
-  #menu{font-size: 11vh;margin-top: 8.9vh;}
-  .whoszzeo{font-size:12vh;line-height: 11vh;}
-
-  #campiabout a{font-size: 1.5rem;line-height: 2.5rem;}
-
-  #projtitle{font-size: 5vh;line-height: 5vh;}
-
-  #date, #type{font-size:2.5vh;line-height: 3.2vh;}
-
-  #date{margin-top: 1.3vh;}
-
-  #homelogo{width:42vh;}
-
-  #catg{font-size: 2.3vh;}
-
-  #titlefoglia{font-size: 11vh;line-height: 12vh;}
-
-  #desc{font-size: 2vh;line-height: 3.5vh;}
-
-  .g-con-showcazz{margin-top: 5vh;width: 85vh;}
-
-}*/
-
-/*
-@media screen and (max-height: 900px)
-{
-  #menu{font-size: 11vh;margin-top: 8.9vh;}
-  .whoszzeo{font-size:12vh;line-height: 11vh;}
-
-  #campiabout a{font-size: 1.5rem;line-height: 2.5rem;}
-
-  #projtitle{font-size: 5vh;line-height: 5vh;}
-
-  #date, #type{font-size:2.5vh;line-height: 3.2vh;}
-
-  #date{margin-top: 1.3vh;}
-
-  #homelogo{width:25%;}
-
-  #catg{font-size: 2.3vh;}
-
-  #titlefoglia{font-size: 11vh;line-height: 12vh;}
-
-  #desc{font-size: 2vh;line-height: 3.5vh;}
-
-  .g-con-showcazz{  margin-top: 6.5vh;
-    width: 72vh;}
-
+  grid-row: 1/45;
 }
 
-
-
-@media screen and (max-width: 414px)
+#homelogo
 {
+  width:28vw;
+  margin-top: 5vh;
+  margin-left: 4vw;
+  margin-right: 45vw;
+  stroke:#000;
+}
+
   .g-con-menu{display:none;}
-  #homelogo{width:42vw;}
+  .g-con-menu-mob{grid-row: 45/102;}
+  .g-con-menu-mob{display: inline;}
 
+  #menumob
+{
+  font-family: 'blackest';
+  font-size:13vw;
+  padding-bottom: 6vh;
 }
-*/
+}
