@@ -1,13 +1,32 @@
 
 function hreffazio(link)
 {
-  gsap.fromTo('.black',{opacity:0},{opacity:1,duration:.4})
-  gsap.fromTo('#acab',{opacity:1},{opacity:0,duration:.2})
-  $(document).ready(function(){
+    gsap.fromTo('.black',{opacity:0},{opacity:1,duration:.4})
+    gsap.fromTo('#acab',{opacity:1},{opacity:0,duration:.2})
+    $(document).ready(function(){
+      setTimeout(function(){
+        window.location.href = link;
+      }, 600);
+    }); 
+
+}
+
+function prova()
+{
+  document.onreadystatechange = function () {
+   
+    var state = document.readyState
+  if (state == 'interactive') {
+    
+       
+  } else if (state == 'complete') {
+
     setTimeout(function(){
-      window.location.href = link;
-    }, 600);
-  });
+      document.getElementById('g-con').style.backgroundColor="blue";
+    }, 1000);
+  }
+  
+  };
 }
 
 
