@@ -11,7 +11,7 @@
 
 #homelogo
 {
-  width:28vw;
+  width:36vw;
   margin-top: 5vh;
   margin-left: 4vw;
   margin-right: 45vw;
@@ -27,5 +27,6 @@
   font-family: 'blackest';
   font-size:13vw;
   padding-bottom: 6vh;
+  line-height: 3vh;
 }
 }
