@@ -1,7 +1,8 @@
 @media only screen 
     and (device-width : 414px) 
     and (device-height : 896px) 
-    and (-webkit-device-pixel-ratio : 2)
+    and (-webkit-device-pixel-ratio : 2),
+    (max-width: 600px)
     {
 
   .g-con-showcase
@@ -9,15 +10,11 @@
   grid-row: 1/44;
 }
 
-body{
-  height:100%;
-}
-
 #homelogo
 {
-  width:36vw;
-  margin-top: 5vh;
-  margin-left: 25vw;
+  width:33vw;
+  margin-top: 10vh;
+  margin-left: 32.5vw;
   margin-right: 45vw;
   stroke:#000;
 }
