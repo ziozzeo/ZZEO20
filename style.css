@@ -29,11 +29,12 @@ body
   -ms-user-select: none;
   user-select: none;
   height:100vh;
+  /*
   overflow-x: hidden;
-  overflow-y: hidden;
+  overflow-y: hidden;*/
 }
 
-#homelogo, #hoverlogo, #aboutlogo
+#homelogo, #hoverlogo, #aboutlogo, #menulogo
 {
   -webkit-animation: 12s  ruotacostant infinite;
   -webkit-animation-timing-function: linear;
