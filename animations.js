@@ -115,7 +115,6 @@ function prova()
     var state = document.readyState
  if (state == 'complete') {
         setTimeout(function(){
-            document.getElementById("black").style.pointerEvents = "none";
             gsap.fromTo('.imgcontain1,.imgcontain2,.imgcontain3,.imgcontain4', {clipPath:'polygon(0% 100%, 100% 100%, 100% 100%, 0 100%)'}, {clipPath:'polygon(0% 0%, 100% 0%, 100% 100%, 0 100%)', duration:1.5, delay:.8, ease: 'power2', stagger:.2})
             gsap.fromTo('#date, #type, #catg, #campiabout, .whoszzeo1, .whoszzeo2, #titlefoglia, #titlefoglia2, #stitlefoglia, #stitlefoglia2, #stitlefoglia3, #menumob', {clipPath:'polygon(0% 100%, 100% 100%, 100% 100%, 0 100%)'}, {clipPath:'polygon(0% 0%, 100% 0%, 100% 100%, 0 100%)', duration:1, delay:.8})
             gsap.fromTo('.black',{opacity:1},{opacity:0,duration:1.6})
@@ -123,6 +122,7 @@ function prova()
             gsap.fromTo('hr', {clipPath:'polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%))'}, {clipPath:'polygon(0% 0%, 100% 0%, 100% 100%, 0 100%)', duration:2})
             gsap.fromTo('#projtitle, #desc', {y:15, opacity:0}, {y:0,opacity:1, duration:1.4, delay:1})
             gsap.fromTo('#acab',{opacity:0},{opacity:1,duration:.2})
+            document.getElementById("black").style.pointerEvents = "none";
         },500);
     }
   }
