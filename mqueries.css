@@ -40,10 +40,34 @@ body{
   overflow-y: scroll!important;
 }
 
-.sc1{grid-column: 1/200; height:74vh;}
-.sc2{grid-column: 1/200; height:74vh;}
-.sc3{grid-column: 1/200; height:74vh;}
-.sc4{grid-column: 1/200; height:74vh;}
+.sc1{grid-column: 1/200; height:88vh;}
+.sc2{grid-column: 1/200; height:88vh;}
+.sc3{grid-column: 1/200; height:88vh;}
+.sc4{grid-column: 1/200; height:88vh;}
+
+
+.imgcontain1, .imgcontain2, .imgcontain3, .imgcontain4
+{
+  height:60%;
+  width:100%;
+  margin-bottom: 3vh;
+}
+
+#projtitle
+{
+
+  font-size: 14vw;
+  line-height: 14vw;
+  color:#000;
+  letter-spacing: -1px;
+}
+
+#date{
+  font-size: 6vw;
+  line-height: 6vw;
+}
  
-  
+#type{  font-size: 6vw;
+  line-height: 6vw;
+  margin-top: 2.5vw;}
 }
