@@ -1,47 +1,40 @@
-@media only screen 
-    and (device-width : 414px) 
-    and (device-height : 896px) 
-    and (-webkit-device-pixel-ratio : 2),
-    (max-width: 375px),
-    (device-width : 375px) 
-    and (device-height : 812px) 
-    and (-webkit-device-pixel-ratio : 3) 
-    {
-
-  .g-con-showcase
+@media (orientation:portrait)
 {
-  grid-row: 1/44;
+.g-con{display: none;}
+.m-con{display: initial;}
+
+body{
+  width:100%;
+  height:100vh;
 }
 
-.g-con
-{
-  background-color: red;
-  width:100%!important;
-  height:100%!important;
-}
-#homelogo
-{
-  width:33vw;
-  margin-top: 10vh;
-  margin-left: 32.5vw;
-  stroke:#000;
-}
-
-  .g-con-menu{display:none;}
-  .g-con-menu-mob{grid-row: 44/102;}
-  .g-con-menu-mob{display: initial;}
-
-  #menumob
+#menumob
 {
   font-family: 'blackest';
-  font-size:13.5vw;
-  line-height: 10vh;
-  letter-spacing: -3px;
+  font-size: 13vw;
+  line-height: 16.2vw;
+  color:#000;
+  letter-spacing: -1px;
 }
 
-
-#noise-canvas
+#homelogo
 {
-  opacity: .24;
+  width:46%;
+  margin:0vw;
+  stroke:#000;
+  padding:5vw;
 }
+
+.m-con-showcase
+{
+  background-color: green;
+}
+
+.m-con-menu
+{
+  background-color: red;
+  padding-top:17vh;
+}
+ 
+  
 }

@@ -86,6 +86,12 @@ body
   pointer-events: none /* Allow clicking trough the div*/
 }
 
+.m-con
+{
+  display:none;
+  background-color: green;
+}
+
 .g-con
 {
   display: grid;
@@ -234,9 +240,6 @@ body
   grid-row: 86/102;
   border-top:1px solid black;
 }
-
-.g-con-menu-mob
-{display:none;}
 
 #menu
 {
