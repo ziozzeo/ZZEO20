@@ -6,7 +6,11 @@
 
   .g-con-showcase
 {
-  grid-row: 1/38;
+  grid-row: 1/44;
+}
+
+body{
+  height:100%;
 }
 
 #homelogo
@@ -19,7 +23,7 @@
 }
 
   .g-con-menu{display:none;}
-  .g-con-menu-mob{grid-row: 38/102;}
+  .g-con-menu-mob{grid-row: 44/102;}
   .g-con-menu-mob{display: inline;margin-left: 2.5vw;align-content: center;}
 
   #menumob
