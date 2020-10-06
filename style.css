@@ -328,9 +328,8 @@ body
 }
 
 .black
-{z-index:999;
-  pointer-events: none;
-  width:100vw;
+{z-index:999;  
+width:100vw;
 height:100vh;
 position: absolute;
 background-color:#000;}
