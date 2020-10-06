@@ -30,8 +30,6 @@ else if(verif==2)
 
 }
 
-
-
 function projhover(verif,nsc)
 {
   if(verif==1){
