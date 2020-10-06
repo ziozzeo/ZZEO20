@@ -328,7 +328,7 @@ body
 }
 
 .black
-{z-index:101;
+{z-index:999;
   pointer-events: none;
   width:100vw;
 height:100vh;
