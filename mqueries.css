@@ -2,7 +2,10 @@
     and (device-width : 414px) 
     and (device-height : 896px) 
     and (-webkit-device-pixel-ratio : 2),
-    (max-width: 600px)
+    (max-width: 375px),
+    (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) 
     {
 
   .g-con-showcase
@@ -10,18 +13,23 @@
   grid-row: 1/44;
 }
 
+.g-con
+{
+  background-color: red;
+  width:100%!important;
+  height:100%!important;
+}
 #homelogo
 {
   width:33vw;
   margin-top: 10vh;
   margin-left: 32.5vw;
-  margin-right: 45vw;
   stroke:#000;
 }
 
   .g-con-menu{display:none;}
   .g-con-menu-mob{grid-row: 44/102;}
-  .g-con-menu-mob{display: inline;margin-left: 2.5vw;align-content: center;}
+  .g-con-menu-mob{display: initial;}
 
   #menumob
 {
@@ -31,10 +39,6 @@
   letter-spacing: -3px;
 }
 
-.g-con
-{
-  height:80%;
-}
 
 #noise-canvas
 {
