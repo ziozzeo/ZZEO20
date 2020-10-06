@@ -90,7 +90,7 @@ body
 .m-con
 {
   display:none;
-  background-color: green;
+  
 }
 
 .g-con
@@ -337,6 +337,9 @@ width:100vw;
 height:100vh;
 position: absolute;
 background-color:#000;}
+
+#bar
+{display: none;}
 
 #showspace
 {

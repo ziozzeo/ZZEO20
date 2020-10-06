@@ -81,7 +81,7 @@ body{
   margin-left: 3vw;
   margin-right: 0vw;
   margin-top:3vw;
-  stroke:#000;
+  stroke:#FFF;
 }
 
 
@@ -108,8 +108,31 @@ body{
   #menuico
   {
     margin-top:9.5vh;
-    margin-left:4vw;
+    margin-left:5vw;
   }
+
+  .black
+  {
+  height:380vh;
+}
+
+.openmenu
+{
+  z-index:95;
+  height:120vh;
+  width:100vw;
+  position: absolute;
+  background-color: black;
+}
+
+
+#noise-canvas
+{
+  opacity: .20;
+}
+
+#bar
+{display: initial;}
 
 
 }

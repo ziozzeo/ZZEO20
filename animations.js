@@ -129,3 +129,8 @@ function prova()
 }
 
 
+function aprimenu()
+{
+    window.alert("click");
+    gsap.fromTo('.openmenu',{y:-2500},{y:0, duration:.5})
+}
