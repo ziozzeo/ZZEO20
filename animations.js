@@ -122,7 +122,7 @@ function prova()
             gsap.fromTo('hr', {clipPath:'polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%))'}, {clipPath:'polygon(0% 0%, 100% 0%, 100% 100%, 0 100%)', duration:2})
             gsap.fromTo('#projtitle, #desc', {y:15, opacity:0}, {y:0,opacity:1, duration:1.4, delay:1})
             gsap.fromTo('#acab',{opacity:0},{opacity:1,duration:.2})
-        },1000);
+        },500);
     }
   }
 }

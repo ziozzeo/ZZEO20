@@ -6,7 +6,7 @@ function hreffazio(link)
     $(document).ready(function(){
       setTimeout(function(){
         window.location.href = link;
-      }, 600);
+      }, 500);
     }); 
 
 }
