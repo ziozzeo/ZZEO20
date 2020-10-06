@@ -116,13 +116,15 @@ body{
   height:380vh;
 }
 
-.openmenu
+#openmenu
 {
+  display: grid;
   z-index:95;
-  height:120vh;
+  height:180vh;
   width:100vw;
   position: absolute;
   background-color: black;
+  opacity:0;
 }
 
 
@@ -132,7 +134,8 @@ body{
 }
 
 #bar
-{display: initial;}
+{display: grid;
+}
 
 
 }

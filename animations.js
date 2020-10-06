@@ -131,6 +131,9 @@ function prova()
 
 function aprimenu()
 {
-    window.alert("click");
-    gsap.fromTo('.openmenu',{y:-2500},{y:0, duration:.5})
+    gsap.fromTo('#openmenu',{opacity:0},{opacity:1, duration:.2})
+    gsap.fromTo('#openmenu',{y:-2500},{y:0, duration:1})
+    gsap.fromTo('#Rectangle-Copy',{rotation: 0},{rotation: -45, duration:2})
+    gsap.fromTo('#Rectangle',{rotation: 0},{rotation: 45, duration:2})
+    
 }

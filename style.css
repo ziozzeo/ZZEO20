@@ -338,7 +338,7 @@ height:100vh;
 position: absolute;
 background-color:#000;}
 
-#bar
+#bar, #openmenu
 {display: none;}
 
 #showspace
