@@ -12,7 +12,7 @@ body{
 {
   font-family: 'blackest';
   font-size: 13.5vw;
-  line-height: 16.2vw;
+  line-height: 19vw;
   color:#000;
   letter-spacing: -1px;
 }
@@ -22,18 +22,28 @@ body{
   width:46%;
   margin:0vw;
   stroke:#000;
-  
+  padding:5vw;
 }
 
-.m-con-showcase
-{
-
-}
 
 .m-con-menu
 {
-  padding-top:26vh;
+  padding-top:20vh;
 }
+
+
+.sc
+{
+  display: grid;
+  grid-template-columns:repeat(200,1fr);
+  margin-top: 5vh;
+  overflow-y: scroll!important;
+}
+
+.sc1{grid-column: 1/200; height:74vh;}
+.sc2{grid-column: 1/200; height:74vh;}
+.sc3{grid-column: 1/200; height:74vh;}
+.sc4{grid-column: 1/200; height:74vh;}
  
   
 }
