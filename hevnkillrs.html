@@ -6,15 +6,15 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 <link rel="stylesheet" type="text/css" href="mqueries.css">
 </head>
-<body data-barba="wrapper" id="myscrollbar">
+<body >
   <canvas id="noise-canvas"></canvas>
-  <div class="black" id="black"></div>
-<div class="g-con" id="g-con">
+   <div class="black" id="black"><div id="progress"></div></div>
+<div class="g-con" id="gcon">
   <div id="acab"><svg id="hoverlogo"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 382 382"><defs><style>.cls-1,.cls-2,.cls-3{fill:none;stroke-miterlimit:10;}.cls-1{stroke-width:13px;}.cls-2{stroke-width:11px;}.cls-3{stroke-width:15px;}</style></defs><title>logo</title><circle class="cls-1" cx="117" cy="150" r="54.07"/><line class="cls-2" x1="66.25" y1="96" x2="171.25" y2="204"/><line class="cls-2" x1="62.75" y1="202.5" x2="170.75" y2="97.5"/><circle class="cls-1" cx="265" cy="150" r="54.07"/><line class="cls-2" x1="214.25" y1="96" x2="319.25" y2="204"/><line class="cls-2" x1="210.75" y1="202.5" x2="318.75" y2="97.5"/><circle class="cls-3" cx="191" cy="191" r="183.5"/><line class="cls-1" x1="83.5" y1="275" x2="298.5" y2="275"/><line class="cls-2" x1="101" y1="247.82" x2="101" y2="304.4"/><line class="cls-2" x1="137" y1="247.82" x2="137" y2="304.4"/><line class="cls-2" x1="173" y1="247.82" x2="173" y2="304.4"/><line class="cls-2" x1="209" y1="247.82" x2="209" y2="304.4"/><line class="cls-2" x1="245" y1="247.82" x2="245" y2="304.4"/><line class="cls-2" x1="281" y1="247.82" x2="281" y2="304.4"/></svg>
   </div>
 
 <div class="header"><div class="progress-container"><div class="progress-bar" id="myBar"></div></div></div>
-    <div class="g-con-showcazz" id="devoscrollare" data-barba="container" data-barba-namespace="home">
+    <div class="g-con-showcazz" id="scrolle" >
 
     <div id="testo"><div id="catg">APRIL 2020 — MAY 2020</div><div id="stitlefoglia">THE</div><div id="stitlefoglia2">HEVNKLLRS </div><div id="stitlefoglia3">PROJECT</div><div><hr></div><div id="desc">The HEVNKLLRS are a newcomer hardtrap/dubstep music duo who released their first single US in May 2020. <br><br>My task was to create the cover of their debut single and promotional and evocative image series to immediately give them a unique and stylish identity.<br><br>Copyright © 2020 <a id="clients" href="http://www.darkthunderrec.com/" target="_blank">Dark Thunder Records</a>. All rights reserved.</div></div>
       <div id="hvnshow"><img src="hvn1.png" id="imgfix"></div>
@@ -49,5 +49,30 @@
 <script src="animations.js"></script>
 <script>prova();</script>
 <script>noise();</script>
-<script>document.getElementById("devoscrollare").onscroll = function() {scrollingbar()};</script>
+<script src="https://code.createjs.com/1.0.0/preloadjs.min.js"></script>
+
+<script>
+let progress = document.getElementById('progress');
+let gcon = document.getElementById('gcon');
+
+var queue = new createjs.LoadQueue(false);
+
+queue.on("progress", event => {
+  let progress = Math.floor(event.progress * 100);
+        this.progress.style.width = progress+'%';
+        if (progress == 100) {
+            console.log('all done');
+}
+})
+
+queue.on("fileload", handleFileComplete);
+queue.loadFile('hvn1.png'); 
+queue.loadFile('hvn2.png'); 
+queue.loadFile('hvn3.png'); 
+queue.loadFile('hvn4.png'); 
+queue.loadFile('hvn6.png'); 
+
+function handleFileComplete(event){}
+</script>
+<script>document.getElementById("scrolle").onscroll = function() {scrollingbar()};</script>
 </html>

@@ -1,12 +1,11 @@
-
 function hreffazio(link)
 {
-    gsap.fromTo('.black',{opacity:0},{opacity:1,duration:.4})
+  gsap.fromTo('.black',{clipPath: 'polygon(0% 0%, 0% 100%, 0% 100%, 0% 0%)'},{clipPath: 'polygon(100% 0%, 100% 100%, 0% 100%, 0% 0%)',duration:1, ease: "power4.inOut" })
     gsap.fromTo('#acab',{opacity:1},{opacity:0,duration:.2})
     $(document).ready(function(){
       setTimeout(function(){
         window.location.href = link;
-      }, 500);
+      }, 1000);
     }); 
 
 }
@@ -62,8 +61,11 @@ function projhover(verif,nsc)
 }
 
 function scrollingbar() {
-  var winScroll = document.getElementById("devoscrollare").scrollTop;
-  var height = document.getElementById("devoscrollare").scrollHeight - document.getElementById("devoscrollare").clientHeight;
+  var winScroll = document.getElementById("scrolle").scrollTop;
+  var height = document.getElementById("scrolle").scrollHeight - document.getElementById("scrolle").clientHeight;
   var scrolled = (winScroll / height) * 100;
   document.getElementById("myBar").style.width = scrolled + "%";
 }
+
+
+

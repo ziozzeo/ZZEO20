@@ -35,7 +35,6 @@ body{
   padding-top:20vh;
 }
 
-
 .sc
 {
   display: grid;
@@ -59,7 +58,6 @@ body{
 
 #projtitle
 {
-
   font-size: 14vw;
   line-height: 14vw;
   color:#000;
@@ -83,8 +81,6 @@ body{
   margin-top:3vw;
   stroke:#FFF;
 }
-
-
 
   #bar
   {
@@ -114,6 +110,7 @@ body{
   .black
   {
   height:380vh;
+  position:fixed;
 }
 
 #openmenu

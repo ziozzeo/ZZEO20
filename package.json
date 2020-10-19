@@ -1,0 +1,23 @@
+{
+  "name": "zzeo20",
+  "version": "1.0.0",
+  "description": "",
+  "main": "animations.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ziozzeo/ziozzeo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ziozzeo/ziozzeo/issues"
+  },
+  "homepage": "https://github.com/ziozzeo/ziozzeo#readme",
+  "dependencies": {
+    "smooth-scrollbar": "^8.5.3"
+  }
+}

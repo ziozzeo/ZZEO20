@@ -29,9 +29,8 @@ body
   -ms-user-select: none;
   user-select: none;
   height:100vh;
-  /*
   overflow-x: hidden;
-  overflow-y: hidden;*/
+  overflow-y: hidden;
 }
 
 #homelogo, #hoverlogo, #aboutlogo, #menulogo
@@ -118,8 +117,7 @@ body
   margin-top: 6.5vh;
   width: 72vh;
   height: 101vw;
-  overflow-y: auto;
-  overflow-x: hidden;
+  overflow: auto;
   transform:rotate(-90deg) translateY(-40vw);
   transform-origin: right top;
   clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
@@ -216,7 +214,6 @@ body
   position: relative;
   float: left;
   display: inline-block;
-  /*clip-path: polygon(100% 0%, 100% 100%, 100% 100%, 100% 0%);*/
 }
 
 .imgzoom1, .imgzoom2, .imgzoom3, .imgzoom4,.imgdoom1, .imgdoom2, .imgdoom3, .imgdoom4
@@ -338,6 +335,17 @@ height:100vh;
 position: absolute;
 background-color:#000;}
 
+#progress
+{
+  background-color:#988AA5;
+  height:4px;
+  position: absolute;
+    transition: width 0.5s ease;
+    top: 50%;
+    width:10%;
+    opacity: 1;
+}
+
 #bar, #openmenu
 {display: none;}
 
@@ -388,7 +396,6 @@ background-color:#000;}
   scrollbar-width: none;  /* Firefox */
 }
 
-
 /* ————————————————————————————— SIZES IMMAGINI SHOWCASE ———————————————————————————————————— */
 
 /* ——————————————— CIRCUS DEADLY SINS ———————————————— */
@@ -430,6 +437,12 @@ background-color:#000;}
 #zzshow4{margin-left: -44vh; margin-top: 34vw;margin-bottom: -20vw;}
 #zzshow5{margin-left: -44vh;margin-top: 34vw;}
 #zzshow6{margin-left: -44vh; margin-top: 34vw;}
+
+/* —————————————————————————————————————————————————————————————————————————— */
+/* —————————————————————————————————————————————————————————————————————————— */
+/* ——————————————————————————————— PRE-LOADER ——————————————————————————————— */
+/* —————————————————————————————————————————————————————————————————————————— */
+/* —————————————————————————————————————————————————————————————————————————— */
 
 
 
