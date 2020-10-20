@@ -27,8 +27,9 @@ body{
 
 .g-con-showcase
 {
-  margin-top:20vh;
+  margin-top:22vh;
 }
+
 
 .m-con-menu
 {
@@ -37,6 +38,7 @@ body{
 
 .sc
 {
+  grid-column: 1/101;
   display: grid;
   grid-template-columns:repeat(200,1fr);
   margin-top: 5vh;
@@ -53,25 +55,25 @@ body{
 {
   height:50%;
   width:100%;
-  margin-bottom: 4vh;
+  margin-bottom: 5vh;
 }
 
 #projtitle
 {
   font-size: 14vw;
-  line-height: 14vw;
+  line-height: 15vw;
   color:#000;
   letter-spacing: -1px;
 }
 
 #date{
   font-size: 6vw;
-  line-height: 6vw;
+  line-height: 10vw;
 }
  
 #type{  font-size: 6vw;
   line-height: 6vw;
-  margin-top: 2.5vw;}
+  margin-top: 0vw;}
 
   #menulogo
 {
@@ -115,13 +117,14 @@ body{
 
 #openmenu
 {
+  position: fixed;
   display: grid;
   z-index:95;
   height:180vh;
   width:100vw;
-  position: fixed;
   background-color: black;
   opacity:0;
+  pointer-events: none;
 }
 
 
@@ -133,6 +136,46 @@ body{
 #bar
 {display: grid;
 }
+
+#testo
+{
+  margin-top: 5vw;
+  width: 100vw;
+  height: 100%;
+}
+
+#catg
+{
+  font-size: 4rem;
+}
+
+#titlefoglia, #titlefoglia2, #stitlefoglia, #stitlefoglia2, #stitlefoglia3
+{
+  grid-column: 1/101;
+  font-size: 9rem;
+  line-height: 4.5rem;
+  letter-spacing: -1px;
+  padding-top: 3vh;
+}
+
+#titlefoglia{padding-bottom: 1vh;}
+#titlefoglia2{padding-bottom: 2.5vh;}
+
+#stitlefoglia{padding-bottom: 1vh;}
+#stitlefoglia2{padding-bottom: 1vh;}
+#stitlefoglia3{padding-bottom: 0.5vh;}
+
+hr{border: 2px solid black; margin-top: 5vh; margin-bottom: 3vh;}
+
+#desc
+{
+  padding-top: 1.5vh;
+  font-size: 3.5rem;
+  line-height: 6rem;
+}
+
+#hvnshow,#hvnshowfin{margin-top: 0vw; width:100vw;grid-column: 1/101; padding-top: 10vh;}
+#hvnshowfin{margin-bottom: 5vh;}
 
 
 }

@@ -29,8 +29,8 @@ body
   -ms-user-select: none;
   user-select: none;
   height:100vh;
-  overflow-x: hidden;
-  overflow-y: hidden;
+  /*overflow-x: hidden;
+  overflow-y: hidden;*/
 }
 
 #homelogo, #hoverlogo, #aboutlogo, #menulogo
@@ -340,10 +340,10 @@ background-color:#000;}
   background-color:#988AA5;
   height:4px;
   position: absolute;
-    transition: width 0.5s ease;
-    top: 50%;
-    width:10%;
-    opacity: 1;
+  transition: width 0.5s ease;
+  top: 50%;
+  width:10%;
+  opacity: 1;
 }
 
 #bar, #openmenu
@@ -425,9 +425,6 @@ background-color:#000;}
 
 #hvnshow,#hvnshowfin{margin-top: 8vw;}
 #hvnshowfin{margin-bottom: -10vw;}
-
-
-
 
 /* ——————————————— ZZ-EO.COM, 2019 EDITION ———————————————— */
 
