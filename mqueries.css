@@ -184,17 +184,16 @@ hr{border: 2px solid black; margin-top: 5vh; margin-bottom: 3vh;}
 
 /* ————————————————————————————— SIZES IMMAGINI SHOWCASE ———————————————————————————————————— */
 
-/* ——————————————— CIRCUS DEADLY SINS ———————————————— */
-#cdsshow1{margin-top: 0vw;width:100vw;grid-column: 1/101;padding-top: 10vh;}
-#cdsshow2{margin-left: 0vh;margin-top: 0vw;grid-column: 1/101;padding-top: 10vh;}
-#cdsshow3{margin-left: 0vh;margin-top: 0vw;grid-column: 1/101;padding-top: 10vh;}
-#cdsshow4{margin-left: 0vh;grid-column: 1/101;padding-top: 10vh;}
-#cdsshow5{margin-left: 0vh;margin-top: 0vw;grid-column: 1/101;padding-top: 10vh;}
-#cdsshow6{margin-left: 0vh;margin-bottom: 0vw;grid-column: 1/101;padding-top: 10vh;}
+/* ——————————————— ILLUSTRATIONS FOGLIE ———————————————— */
 
-/* ——————————————— HEVNKLLRS ———————————————— */
-#hvnshow,#hvnshowfin{margin-top: 0vw; width:100vw;grid-column: 1/101; padding-top: 10vh;}
-#hvnshowfin{margin-bottom: 0vh;grid-column: 1/101;}
+#cdsshow1,#cdsshow2,#cdsshow3,#cdsshow4,#cdsshow5,#cdsshow6,#nwtshow1,#nwtshow2,#nwtshow3,#nwtshow4,#sltshow1,#sltshow2,#sltshow3,#sltshow4,#sltshow5,#hvnshow,#hvnshowfin
+{
+  margin:0;
+  width:100vw;
+  grid-column: 1/101;
+  padding-top: 10vh;
+}
+
 
 }
 
