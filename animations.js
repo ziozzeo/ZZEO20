@@ -135,17 +135,19 @@ var chiudoapro=0;
 function gestmenu()
 {
     if (chiudoapro==0){
-        gsap.fromTo('#openmenu',{opacity:0},{opacity:1, duration:.2})
+        gsap.fromTo('#openmenu',{opacity:0, pointerEvents: "none"},{opacity:1,pointerEvents: "auto", duration:.2})
         gsap.fromTo('#openmenu',{y:-2500},{y:0, duration:1})
         gsap.fromTo('#Rectangle-Copy',{rotation: 0},{rotation: -45, duration:.5})
         gsap.fromTo('#Rectangle',{rotation: 0},{rotation: 45, duration:.5})
+        gsap.fromTo('#menulogo',{stroke:"#000"},{stroke:"#fff",duration:.2})
     }
     else
     {
-        gsap.fromTo('#openmenu',{opacity:1},{opacity:0, duration:.2})
+        gsap.fromTo('#openmenu',{opacity:1, pointerEvents: "auto"},{opacity:0, pointerEvents: "none", duration:.2})
         gsap.fromTo('#openmenu',{y:0},{y:-2500, duration:1})
         gsap.fromTo('#Rectangle-Copy',{rotation: -45},{rotation: 0, duration:.5})
         gsap.fromTo('#Rectangle',{rotation: 45},{rotation: 0, duration:.5})
+        gsap.fromTo('#menulogo',{stroke:"#fff"},{stroke:"#000",duration:.2})
     }
     if(chiudoapro==0){chiudoapro=1;}else{chiudoapro=0;}
 }

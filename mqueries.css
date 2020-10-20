@@ -30,6 +30,10 @@ body{
   margin-top:22vh;
 }
 
+#acab
+{
+  display: none;
+}
 
 .m-con-menu
 {
@@ -81,13 +85,13 @@ body{
   margin-left: 3vw;
   margin-right: 0vw;
   margin-top:3vw;
-  stroke:#FFF;
+  stroke:#000;
 }
 
   #bar
   {
     position:fixed;
-    color:#fff;
+    color:#000;
     z-index:96;
     display:grid;
     grid-template-columns:repeat(100,1fr);
@@ -105,7 +109,7 @@ body{
 
   #menuico
   {
-    margin-top:9.5vh;
+    margin-top:8.5vh;
     margin-left:5vw;
   }
 
@@ -134,7 +138,8 @@ body{
 }
 
 #bar
-{display: grid;
+{
+  display: grid;
 }
 
 #testo
@@ -147,6 +152,7 @@ body{
 #catg
 {
   font-size: 4rem;
+  line-height: 5.3rem;
 }
 
 #titlefoglia, #titlefoglia2, #stitlefoglia, #stitlefoglia2, #stitlefoglia3
@@ -171,12 +177,24 @@ hr{border: 2px solid black; margin-top: 5vh; margin-bottom: 3vh;}
 {
   padding-top: 1.5vh;
   font-size: 3.5rem;
-  line-height: 6rem;
+  line-height: 5.5rem;
+  letter-spacing: -1.5px;
 }
 
-#hvnshow,#hvnshowfin{margin-top: 0vw; width:100vw;grid-column: 1/101; padding-top: 10vh;}
-#hvnshowfin{margin-bottom: 5vh;}
 
+/* ————————————————————————————— SIZES IMMAGINI SHOWCASE ———————————————————————————————————— */
+
+/* ——————————————— CIRCUS DEADLY SINS ———————————————— */
+#cdsshow1{margin-top: 0vw;width:100vw;grid-column: 1/101;padding-top: 10vh;}
+#cdsshow2{margin-left: 0vh;margin-top: 0vw;grid-column: 1/101;padding-top: 10vh;}
+#cdsshow3{margin-left: 0vh;margin-top: 0vw;grid-column: 1/101;padding-top: 10vh;}
+#cdsshow4{margin-left: 0vh;grid-column: 1/101;padding-top: 10vh;}
+#cdsshow5{margin-left: 0vh;margin-top: 0vw;grid-column: 1/101;padding-top: 10vh;}
+#cdsshow6{margin-left: 0vh;margin-bottom: 0vw;grid-column: 1/101;padding-top: 10vh;}
+
+/* ——————————————— HEVNKLLRS ———————————————— */
+#hvnshow,#hvnshowfin{margin-top: 0vw; width:100vw;grid-column: 1/101; padding-top: 10vh;}
+#hvnshowfin{margin-bottom: 0vh;grid-column: 1/101;}
 
 }
 
