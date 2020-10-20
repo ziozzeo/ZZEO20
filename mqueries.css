@@ -72,25 +72,31 @@ body{
 {
   height:50%;
   width:100%;
-  margin-bottom: 5vh;
+  margin-bottom: 4vh;
 }
 
 #projtitle
 {
-  font-size: 14vw;
+  font-size: 13vw;
   line-height: 15vw;
   color:#000;
   letter-spacing: -1px;
+  padding-right: 3vw;
+  padding-left:3vw;
 }
 
 #date{
   font-size: 6vw;
   line-height: 10vw;
+  padding-right: 3vw;
+  padding-left:3vw;
 }
  
 #type{  font-size: 6vw;
   line-height: 6vw;
-  margin-top: 0vw;}
+  margin-top: 0vw;
+  padding-right: 3vw;
+  padding-left:3vw;}
 
   #menulogo
 {
@@ -165,11 +171,15 @@ body{
 {
   font-size: 4rem;
   line-height: 5.3rem;
+  padding-right: 3vw;
+  padding-left:3vw;
 }
 
 #titlefoglia, #stitlefoglia
 {
   margin-top: 4vw;
+  padding-right: 3vw;
+  padding-left:3vw;
 }
 
 #titlefoglia, #titlefoglia2, #stitlefoglia, #stitlefoglia2, #stitlefoglia3
@@ -178,6 +188,8 @@ body{
   font-size: 9rem;
   letter-spacing: -1px;
   padding-top: 5vw;
+  padding-right: 3vw;
+  padding-left:3vw;
 }
 
 #titlefoglia{padding-bottom: 1vh;}
@@ -195,6 +207,8 @@ hr{border: 2px solid black; margin-top: 5vh; margin-bottom: 3vh;}
   font-size: 3.5rem;
   line-height: 5.5rem;
   letter-spacing: -1.5px;
+  padding-right: 3vw;
+  padding-left:3vw;
 }
 
 
