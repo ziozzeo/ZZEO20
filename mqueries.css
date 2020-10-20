@@ -27,7 +27,7 @@ body{
 
 .g-con-showcase
 {
-  margin-top:22vh;
+  margin-top:42vw;
 }
 
 #acab
@@ -109,7 +109,7 @@ body{
 
   #menuico
   {
-    margin-top:8.5vh;
+    margin-top:17vw;
     margin-left:5vw;
   }
 
@@ -130,7 +130,6 @@ body{
   opacity:0;
   pointer-events: none;
 }
-
 
 #noise-canvas
 {
@@ -155,27 +154,31 @@ body{
   line-height: 5.3rem;
 }
 
+#titlefoglia, #stitlefoglia
+{
+  margin-top: 4vw;
+}
+
 #titlefoglia, #titlefoglia2, #stitlefoglia, #stitlefoglia2, #stitlefoglia3
 {
   grid-column: 1/101;
   font-size: 9rem;
-  line-height: 4.5rem;
   letter-spacing: -1px;
-  padding-top: 3vh;
+  padding-top: 5vw;
 }
 
 #titlefoglia{padding-bottom: 1vh;}
-#titlefoglia2{padding-bottom: 2.5vh;}
+#titlefoglia2{padding-bottom: 4vw;}
 
 #stitlefoglia{padding-bottom: 1vh;}
 #stitlefoglia2{padding-bottom: 1vh;}
-#stitlefoglia3{padding-bottom: 0.5vh;}
+#stitlefoglia3{padding-bottom: 4vw;}
 
 hr{border: 2px solid black; margin-top: 5vh; margin-bottom: 3vh;}
 
 #desc
 {
-  padding-top: 1.5vh;
+  padding-top: 7vw;
   font-size: 3.5rem;
   line-height: 5.5rem;
   letter-spacing: -1.5px;

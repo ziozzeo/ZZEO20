@@ -140,6 +140,7 @@ function gestmenu()
         gsap.fromTo('#Rectangle-Copy',{rotation: 0},{rotation: -45, duration:.5})
         gsap.fromTo('#Rectangle',{rotation: 0},{rotation: 45, duration:.5})
         gsap.fromTo('#menulogo',{stroke:"#000"},{stroke:"#fff",duration:.2})
+        gsap.fromTo('#Digital',{fill:"#000"},{fill:"#fff",duration:.2})
     }
     else
     {
@@ -148,6 +149,7 @@ function gestmenu()
         gsap.fromTo('#Rectangle-Copy',{rotation: -45},{rotation: 0, duration:.5})
         gsap.fromTo('#Rectangle',{rotation: 45},{rotation: 0, duration:.5})
         gsap.fromTo('#menulogo',{stroke:"#fff"},{stroke:"#000",duration:.2})
+        gsap.fromTo('#Digital',{fill:"#fff"},{fill:"#000",duration:.2})
     }
     if(chiudoapro==0){chiudoapro=1;}else{chiudoapro=0;}
 }
