@@ -3,7 +3,8 @@
 .g-con{display: none;}
 .m-con{display: initial;}
 
-body{
+body
+{
   width:100%;
   height:100vh;
 }
@@ -129,14 +130,14 @@ body{
   #menuico
   {
     margin-top:17vw;
-    margin-left:5vw;
+    margin-left:5.5vw;
   }
 
   .black
   {
-  height:380vh;
-  position:fixed;
-}
+    height:380vh;
+    position:fixed;
+  }
 
 #openmenu
 {
@@ -225,6 +226,16 @@ hr{border: 2px solid black; margin-top: 5vh; margin-bottom: 3vh;}
 {
   font-size:30vw;
 }
+
+.imgzoom1{background-image:url("MOB05.png");}
+.imgzoom2{background-image:url("MOB06.png");}
+.imgzoom3{background-image:url("MOB07.png");}
+.imgzoom4{background-image:url("MOB08.png");}
+
+.imgdoom1{background-image:url("MOB01.png");}
+.imgdoom2{background-image:url("MOB02.png");}
+.imgdoom3{background-image:url("MOB03.png");}
+.imgdoom4{background-image:url("MOB04.png");}
 
 /* ————————————————————————————— SIZES IMMAGINI SHOWCASE ———————————————————————————————————— */
 
