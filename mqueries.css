@@ -211,6 +211,20 @@ hr{border: 2px solid black; margin-top: 5vh; margin-bottom: 3vh;}
   padding-left:3vw;
 }
 
+#descp
+{
+  font-family: 'poppins';
+  padding-top: 3.5vw;
+  font-size: 4rem;
+  line-height: 5.5rem;
+  padding-right: 3vw;
+  padding-left:3vw;
+}
+
+#campiabout
+{
+  font-size:30vw;
+}
 
 /* ————————————————————————————— SIZES IMMAGINI SHOWCASE ———————————————————————————————————— */
 
@@ -226,4 +240,3 @@ hr{border: 2px solid black; margin-top: 5vh; margin-bottom: 3vh;}
 
 
 }
-
