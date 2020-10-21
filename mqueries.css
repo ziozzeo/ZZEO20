@@ -249,5 +249,10 @@ hr{border: 2px solid black; margin-top: 5vh; margin-bottom: 3vh;}
   padding-top: 10vh;
 }
 
+#testo #stitlefoglia, #testo #stitlefoglia2
+{
+  font-size: 12rem;
+  line-height: 12vw;
+}
 
 }
