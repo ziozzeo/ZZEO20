@@ -29,8 +29,8 @@ body
   -ms-user-select: none;
   user-select: none;
   height:100vh;
-  overflow-x: hidden;
-  overflow-y: hidden;
+  /*overflow-x: hidden;
+  overflow-y: hidden;*/
 }
 
 #homelogo, #hoverlogo, #aboutlogo, #menulogo
@@ -89,7 +89,6 @@ body
 .m-con
 {
   display:none;
-  
 }
 
 .g-con
@@ -247,10 +246,10 @@ body
 
 .space
 {
-  width: 99999px;
+  width: 40000px;
   position: relative;
   animation-name: scrollLeft;
-  animation-duration: 32s;
+  animation-duration: 15s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-direction: normal;
@@ -258,11 +257,11 @@ body
   animation-fill-mode: forwards;
 }
 
-@-webkit-keyframes scrollLeft {0% {transform: translateX( 2vw ) translateY( -50% );}100% {transform: translateX( -2.09% ) translateY( -50% );}}
-@-moz-keyframes scrollLeft {0% {transform: translateX( 2vw ) translateY( -50% );}100% {transform: translateX( -2.09% ) translateY( -50% );}}
-@-o-keyframes scrollLeft {0% {transform: translateX( 2vw ) translateY( -50% );}100% {transform: translateX( -2.09% ) translateY( -50% );}}
-@-ms-keyframes scrollLeft {0% {transform: translateX( 2vw ) translateY( -50% );}100% {transform: translateX( -2.09% ) translateY( -50% );}}
-@keyframes scrollLeft {0% {transform: translateX( 2vw ) translateY( -50% );}100% {transform: translateX( -2.09% ) translateY( -50% );}}
+@-webkit-keyframes scrollLeft {0% {transform: translateX( 2vw ) translateY( -50% );}100% {transform: translateX( -5.33% ) translateY( -50% );}}
+@-moz-keyframes scrollLeft {0% {transform: translateX( 2vw ) translateY( -50% );}100% {transform: translateX( -5.33% ) translateY( -50% );}}
+@-o-keyframes scrollLeft {0% {transform: translateX( 2vw ) translateY( -50% );}100% {transform: translateX( -5.33% ) translateY( -50% );}}
+@-ms-keyframes scrollLeft {0% {transform: translateX( 2vw ) translateY( -50% );}100% {transform: translateX( -5.33% ) translateY( -50% );}}
+@keyframes scrollLeft {0% {transform: translateX( 2vw ) translateY( -50% );}100% {transform: translateX( -5.33% ) translateY( -50% );}}
 
 #campiabout a
 {
