@@ -29,8 +29,8 @@ body
   -ms-user-select: none;
   user-select: none;
   height:100vh;
-  /*overflow-x: hidden;
-  overflow-y: hidden;*/
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 #homelogo, #hoverlogo, #aboutlogo, #menulogo
@@ -152,7 +152,6 @@ body
   line-height: 5.2rem;
   color:#000;
   letter-spacing: -1px;
-  
 }
 
 #titlefoglia{padding-bottom: 1vh;}
@@ -265,7 +264,7 @@ body
 @-ms-keyframes scrollLeft {0% {transform: translateX( 2vw ) translateY( -50% );}100% {transform: translateX( -2.09% ) translateY( -50% );}}
 @keyframes scrollLeft {0% {transform: translateX( 2vw ) translateY( -50% );}100% {transform: translateX( -2.09% ) translateY( -50% );}}
 
-#campiabout a, .titles1 a, .titles2 a, .g-con-footer-mail a, .g-con-head-about a, .g-con-footer-other a
+#campiabout a
 {
   text-decoration: none;
   color:#000;
@@ -278,7 +277,7 @@ body
   transition: 0.4s;
 }
 
-#campiabout a:hover, .g-con-footer-mail a:hover, .g-con-head-about a:hover, .g-con-footer-other a:hover{background-size: 100% .1em;color:#CDCDCD;}
+#campiabout a:hover{background-size: 100% .1em;color:#CDCDCD;}
 #clients{text-decoration:underline;}
 
 /* ————————————— ABOUT ————————————————*/
