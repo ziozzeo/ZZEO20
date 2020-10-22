@@ -1,4 +1,4 @@
-@media (orientation:portrait)
+@media only screen and (orientation:portrait)
 {
 .g-con{display: none;}
 .m-con{display: initial;}
@@ -178,17 +178,16 @@ body
 
 #titlefoglia, #stitlefoglia
 {
-  margin-top: 4vw;
-  padding-right: 3vw;
-  padding-left:3vw;
+  margin-top: 0vw;
 }
 
 #titlefoglia, #titlefoglia2, #stitlefoglia, #stitlefoglia2, #stitlefoglia3
 {
   grid-column: 1/101;
-  font-size: 9rem;
+  font-size: 13vw!important;
+  line-height: 8.5vw!important;
   letter-spacing: -1px;
-  padding-top: 5vw;
+  padding-top: 7vw;
   padding-right: 3vw;
   padding-left:3vw;
 }
@@ -257,8 +256,9 @@ hr{border: 2px solid black; margin-top: 5vh; margin-bottom: 3vh;}
 
 }
 
-
-@media (max-height:720px)
+/*
+@media only screen
+and (max-height:720px)
 {
   #desc
   {
@@ -327,7 +327,10 @@ h3#campiabout
   .whoszzeo1{padding-top: 2.5vh;}
 }
 
-@media (max-width:1300px)
+
+@media only screen 
+and (max-width:1300px)
+and (min-width:1068px)
 {
   #projtitle
 {
@@ -342,4 +345,4 @@ h3#campiabout
 }
 
 #date{margin-top: 0.5vh;}
-}
+}*/
