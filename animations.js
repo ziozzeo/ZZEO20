@@ -117,13 +117,15 @@ function prova()
         setTimeout(function(){
             gsap.fromTo('#progress',{opacity:1},{opacity:0,duration:.4})
             gsap.fromTo('.imgcontain1,.imgcontain2,.imgcontain3,.imgcontain4', {clipPath:'polygon(0% 100%, 100% 100%, 100% 100%, 0 100%)'}, {clipPath:'polygon(0% 0%, 100% 0%, 100% 100%, 0 100%)', duration:1.5, delay:.8, ease: 'power2', stagger:.2})
-            gsap.fromTo('#date, #type, #catg, #campiabout, .whoszzeo1, .whoszzeo2, #titlefoglia, #titlefoglia2, #stitlefoglia, #stitlefoglia2, #stitlefoglia3', {clipPath:'polygon(0% 100%, 100% 100%, 100% 100%, 0 100%)'}, {clipPath:'polygon(0% 0%, 100% 0%, 100% 100%, 0 100%)', duration:1, delay:.8})
+            gsap.fromTo('#date, #type, #campiabout, .whoszzeo1, .whoszzeo2, #titlefoglia, #titlefoglia2, #stitlefoglia, #stitlefoglia2, #stitlefoglia3', {clipPath:'polygon(0% 100%, 100% 100%, 100% 100%, 0 100%)'}, {clipPath:'polygon(0% 0%, 100% 0%, 100% 100%, 0 100%)', duration:1, delay:.8})
+            gsap.fromTo('#catg', {clipPath:'polygon(0% 100%, 100% 100%, 100% 100%, 0 100%)'}, {clipPath:'polygon(0% 0%, 100% 0%, 100% 100%, 0 100%)', duration:1.2, delay:.4})
             gsap.fromTo('.black',{clipPath: 'polygon(100% 0%, 100% 100%, 0% 100%, 0% 0%)'},{clipPath: 'polygon(100% 0%, 100% 100%, 100% 100%, 100% 0%)',duration:1,ease: "power4.inOut"})
             gsap.fromTo('#imgfix', {clipPath:'polygon(0% 100%, 100% 100%, 100% 100%, 0 100%)'}, {clipPath:'polygon(0% 0%, 100% 0%, 100% 100%, 0 100%)', duration:1, delay:.8})
             gsap.fromTo('hr', {clipPath:'polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%))'}, {clipPath:'polygon(0% 0%, 100% 0%, 100% 100%, 0 100%)', duration:2})
             gsap.fromTo('#projtitle, #desc',{y:15, opacity:0}, {y:0,opacity:1, duration:1.4, delay:1})
             gsap.fromTo('#acab',{opacity:0},{opacity:1,duration:.2})
             document.getElementById("black").style.pointerEvents = "none";
+            gsap.fromTo('#menumob', {clipPath:'polygon(0% 100%, 100% 100%, 100% 100%, 0 100%)'}, {clipPath:'polygon(0% 0%, 100% 0%, 100% 100%, 0 100%)', duration:.6, delay:.8})
         },500);
     }
   }
@@ -143,6 +145,7 @@ function gestmenu()
         gsap.fromTo('#menulogo',{stroke:"#000"},{stroke:"#fff",duration:.2})
         gsap.fromTo('#Digital',{fill:"#000"},{fill:"#fff",duration:.2})
         gsap.fromTo('#menumob-op', {clipPath:'polygon(0% 100%, 100% 100%, 100% 100%, 0 100%)'}, {clipPath:'polygon(0% 0%, 100% 0%, 100% 100%, 0 100%)', duration:.8, delay:.8})
+        gsap.fromTo('#bar',{backgroundColor:"#988AA5"},{backgroundColor:"#000",duration:.9})
     }
     else
     {
@@ -154,6 +157,7 @@ function gestmenu()
         gsap.fromTo('#menulogo',{stroke:"#fff"},{stroke:"#000",duration:.2})
         gsap.fromTo('#Digital',{fill:"#fff"},{fill:"#000",duration:.2})
         gsap.fromTo('#menumob-op', {clipPath:'polygon(0% 0%, 100% 0%, 100% 100%, 0 100%))'}, {clipPath:'polygon(0% 100%, 100% 100%, 100% 100%, 0 100%)', duration:.6})
+        gsap.fromTo('#bar',{backgroundColor:"#000"},{backgroundColor:"#988AA5",duration:.9,delay:1})
     }
     if(chiudoapro==0){chiudoapro=1;}else{chiudoapro=0;}
 }
