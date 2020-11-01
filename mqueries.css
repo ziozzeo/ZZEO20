@@ -304,7 +304,7 @@ hr{border: 2px solid black; margin-top: 2vh; margin-bottom: 1.5vh;}
 
 /* ——————————————— ILLUSTRATIONS FOGLIE ———————————————— */
 
-#cdsshow1,#cdsshow2,#cdsshow3,#cdsshow4,#cdsshow5,#cdsshow6,#nwtshow1,#nwtshow2,#nwtshow3,#nwtshow4,#sltshow1,#sltshow2,#sltshow3,#sltshow4,#sltshow5,#hvnshow,#hvnshowfin
+#cdsshow1,#cdsshow2,#cdsshow3,#cdsshow4,#cdsshow5,#cdsshow6,#cdsshow7, #cdsshow8,#nwtshow1,#nwtshow2,#nwtshow3,#nwtshow4,#sltshow1,#sltshow2,#sltshow3,#sltshow4,#sltshow5,#hvnshow,#hvnshowfin
 {
   margin:0;
   width:100vw;
@@ -432,5 +432,57 @@ and (max-width:750px)
 {
   margin-top: 60vw;
   height: 70%;
+}
+}
+
+
+
+@media only screen 
+and (orientation:landscape)
+and (min-width:1500px)
+{
+#projtitle
+{
+  font-size: 2.5vw;
+  line-height: 2.7vw;
+  letter-spacing: -1px;
+}
+
+#date
+{
+  font-size: 1.1vw;
+  line-height: 1vw;
+  margin-top: 0.6vw;
+}
+ 
+#type
+{  
+  font-size: 1.1vw;
+  line-height: 2vw;
+}
+
+.whoszzeo1, .whoszzeo2
+{
+  font-size: 5vw;
+  line-height: 5vw;
+}
+
+#desc
+{
+  padding-top: 0.8vw;
+  font-size: 1.1vw;
+  line-height: 1.7vw;
+}
+
+#campiabout a
+{
+  font-size: 1.3vw;
+  line-height: 2.2vw; 
+}
+
+.g-con-showcazz
+{
+  height: 105vw;
+  transform:rotate(-90deg) translateY(-39.3vw);
 }
 }

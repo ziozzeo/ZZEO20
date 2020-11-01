@@ -14,7 +14,7 @@ How to use
 
 Include the library file in your html page.
 
-    <script src="grained.js"></script>
+    
 
 initialize the library by
 
