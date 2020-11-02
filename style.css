@@ -201,6 +201,7 @@ body
 
 .aboutsc1{grid-column: 5/50; height:74vh;}
 .aboutsc2{grid-column: 56/142; height:74vh;}
+#photo{margin-top:2vh;width:34vw;margin-left:4.3vw;}
 .aboutsc3{grid-column: 148/197; height:74vh;}
 
 .imgcontain1, .imgcontain2, .imgcontain3, .imgcontain4

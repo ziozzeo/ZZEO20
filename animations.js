@@ -126,6 +126,7 @@ function prova()
             gsap.fromTo('#acab',{opacity:0},{opacity:1,duration:.2})
             document.getElementById("black").style.pointerEvents = "none";
             gsap.fromTo('#menumob', {clipPath:'polygon(0% 100%, 100% 100%, 100% 100%, 0 100%)'}, {clipPath:'polygon(0% 0%, 100% 0%, 100% 100%, 0 100%)', duration:.6, delay:.8})
+            gsap.fromTo('#photo', {clipPath:'polygon(0% 100%, 100% 100%, 100% 100%, 0 100%)'}, {clipPath:'polygon(0% 0%, 100% 0%, 100% 100%, 0 100%)', duration:1, delay:.8})
         },500);
     }
   }
