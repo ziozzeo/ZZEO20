@@ -3,6 +3,12 @@
 @media only screen and (orientation:portrait)
 {
 
+  #provaz
+  {
+    position:relative;
+    overflow-y: hidden;
+  }
+
   #progress
   {
     height:14px;
