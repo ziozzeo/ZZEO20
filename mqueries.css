@@ -66,7 +66,7 @@ body
 
 .m-con-menu-opind
 {
-  margin-top:43vh;
+  margin-top:44vh;
   width:99999px;
   position:fixed;
 }
@@ -74,9 +74,9 @@ body
 #menumob
 {
   font-family: 'blackest';
-  font-size: 9vh;
+  font-size: 22vw;
   color:#000;
-  line-height: 28vw;
+  line-height: 29.5vw;
 }
 
 #voce1, #voce2, #voce3, #voce4
