@@ -268,18 +268,18 @@ body
   width: 40000px;
   position: relative;
   animation-name: scrollLeft;
-  animation-duration: 15s;
+  animation-duration: 30s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-direction: normal;
   animation-play-state: running;
 }
 
-@-webkit-keyframes scrollLeft {0% {transform: translateX( 2vw ) translateY( -50% );}100% {transform: translateX( -5.33% ) translateY( -50% );}}
-@-moz-keyframes scrollLeft {0% {transform: translateX( 2vw ) translateY( -50% );}100% {transform: translateX( -5.33% ) translateY( -50% );}}
-@-o-keyframes scrollLeft {0% {transform: translateX( 2vw ) translateY( -50% );}100% {transform: translateX( -5.33% ) translateY( -50% );}}
-@-ms-keyframes scrollLeft {0% {transform: translateX( 2vw ) translateY( -50% );}100% {transform: translateX( -5.33% ) translateY( -50% );}}
-@keyframes scrollLeft {0% {transform: translateX( 2vw ) translateY( -50% );}100% {transform: translateX( -5.33% ) translateY( -50% );}}
+@-webkit-keyframes scrollLeft {0% {transform: translateX( 2vw ) translateY( -50% );}100% {transform: translateX( -8% ) translateY( -50% );}}
+@-moz-keyframes scrollLeft {0% {transform: translateX( 2vw ) translateY( -50% );}100% {transform: translateX( -8% ) translateY( -50% );}}
+@-o-keyframes scrollLeft {0% {transform: translateX( 2vw ) translateY( -50% );}100% {transform: translateX( -8% ) translateY( -50% );}}
+@-ms-keyframes scrollLeft {0% {transform: translateX( 2vw ) translateY( -50% );}100% {transform: translateX( -8% ) translateY( -50% );}}
+@keyframes scrollLeft {0% {transform: translateX( 2vw ) translateY( -50% );}100% {transform: translateX( -8% ) translateY( -50% );}}
 
 #campiabout a
 {

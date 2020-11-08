@@ -122,7 +122,7 @@ function prova()
             gsap.fromTo('.black',{clipPath: 'polygon(100% 0%, 100% 100%, 0% 100%, 0% 0%)'},{clipPath: 'polygon(100% 0%, 100% 100%, 100% 100%, 100% 0%)',duration:1,ease: "power4.inOut"})
             gsap.fromTo('#imgfix', {clipPath:'polygon(0% 100%, 100% 100%, 100% 100%, 0 100%)'}, {clipPath:'polygon(0% 0%, 100% 0%, 100% 100%, 0 100%)', duration:1, delay:.8})
             gsap.fromTo('hr', {clipPath:'polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%))'}, {clipPath:'polygon(0% 0%, 100% 0%, 100% 100%, 0 100%)', duration:2})
-            gsap.fromTo('#projtitle, #desc','#aboutesto',{y:15, opacity:0}, {y:0,opacity:1, duration:1.4, delay:1})
+            gsap.fromTo('#projtitle','#aboutesto',{y:15, opacity:0}, {y:0,opacity:1, duration:1.4, delay:1})
             gsap.fromTo('#acab',{opacity:0},{opacity:1,duration:.2})
             document.getElementById("black").style.pointerEvents = "none";
             gsap.fromTo('#menumob', {clipPath:'polygon(0% 100%, 100% 100%, 100% 100%, 0 100%)'}, {clipPath:'polygon(0% 0%, 100% 0%, 100% 100%, 0 100%)', duration:.6, delay:.8})

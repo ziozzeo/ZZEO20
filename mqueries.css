@@ -39,6 +39,13 @@ body
   height:100vh;
 }
 
+#aboutphoto
+{
+  height:120vw;
+  width:107%;
+  margin-left:-3.2vw;
+}
+
 .m-con-showcase
 {
   grid-row: 1/25;
@@ -53,7 +60,7 @@ body
 
 .m-con-menu-opind
 {
-  margin-top:45vh;
+  margin-top:43vh;
   width:99999px;
   position:fixed;
 }
@@ -63,12 +70,12 @@ body
   font-family: 'blackest';
   font-size: 9vh;
   color:#000;
-  line-height: 29vw;
+  line-height: 28vw;
 }
 
 #voce1, #voce2, #voce3, #voce4
 {
-  animation-name: scrollLeft;
+  animation-name: scrollLeftmob;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-direction: normal;
@@ -76,10 +83,16 @@ body
   height:12vh;
 }
 
-#voce1{border-top: 3px solid black;animation-duration: 20s;}
-#voce2{border-top: 3px solid black;animation-duration: 25s;}
-#voce3{border-top: 3px solid black;animation-duration: 16s;}
-#voce4{border-top: 3px solid black;border-bottom: 3px solid black;animation-duration: 28s;}
+@-webkit-keyframes scrollLeftmob {0% {transform: translateX( 2vw ) translateY( -50% );}100% {transform: translateX( -5.33% ) translateY( -50% );}}
+@-moz-keyframes scrollLeftmob {0% {transform: translateX( 2vw ) translateY( -50% );}100% {transform: translateX( -5.33% ) translateY( -50% );}}
+@-o-keyframes scrollLeftmob {0% {transform: translateX( 2vw ) translateY( -50% );}100% {transform: translateX( -5.33% ) translateY( -50% );}}
+@-ms-keyframes scrollLeftmob {0% {transform: translateX( 2vw ) translateY( -50% );}100% {transform: translateX( -5.33% ) translateY( -50% );}}
+@keyframes scrollLeftmob {0% {transform: translateX( 2vw ) translateY( -50% );}100% {transform: translateX( -5.33% ) translateY( -50% );}}
+
+#voce1{border-top: 3px solid black;animation-duration: 40s;}
+#voce2{border-top: 3px solid black;animation-duration: 45s;}
+#voce3{border-top: 3px solid black;animation-duration: 36s;}
+#voce4{border-top: 3px solid black;border-bottom: 3px solid black;animation-duration: 48s;}
 
 
 #homelogo
