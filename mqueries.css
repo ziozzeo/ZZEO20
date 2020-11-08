@@ -17,8 +17,6 @@
 .m-con
 {
   display: initial;
-  position:relative;
-  overflow-y:hidden;
 }
 
 body
@@ -44,6 +42,7 @@ body
 .m-con-showcase
 {
   grid-row: 1/25;
+  position:fixed;
 }
 
 .m-con-menu-op
@@ -69,18 +68,18 @@ body
 #voce1, #voce2, #voce3, #voce4
 {
   animation-name: scrollLeft;
-  animation-duration: 20s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-direction: normal;
   animation-play-state: running;
   height:12vh;
+  background-color: mediumpurple;
 }
 
-#voce1{border-top: 3px solid black;}
-#voce2{border-top: 3px solid black;}
-#voce3{border-top: 3px solid black;}
-#voce4{border-top: 3px solid black;border-bottom: 3px solid black;}
+#voce1{border-top: 3px solid black;animation-duration: 10s;}
+#voce2{border-top: 3px solid black;animation-duration: 15s;}
+#voce3{border-top: 3px solid black;animation-duration: 18s;}
+#voce4{border-top: 3px solid black;border-bottom: 3px solid black;animation-duration: 10s;}
 
 
 #homelogo
