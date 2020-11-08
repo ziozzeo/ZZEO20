@@ -54,7 +54,7 @@ body
 .m-con-menu-opind
 {
   margin-top:45vh;
-  width:9999px;
+  width:99999px;
   position:fixed;
 }
 
@@ -63,6 +63,7 @@ body
   font-family: 'blackest';
   font-size: 9vh;
   color:#000;
+  line-height: 29vw;
 }
 
 #voce1, #voce2, #voce3, #voce4
@@ -73,13 +74,12 @@ body
   animation-direction: normal;
   animation-play-state: running;
   height:12vh;
-  background-color: mediumpurple;
 }
 
-#voce1{border-top: 3px solid black;animation-duration: 10s;}
-#voce2{border-top: 3px solid black;animation-duration: 15s;}
-#voce3{border-top: 3px solid black;animation-duration: 18s;}
-#voce4{border-top: 3px solid black;border-bottom: 3px solid black;animation-duration: 10s;}
+#voce1{border-top: 3px solid black;animation-duration: 20s;}
+#voce2{border-top: 3px solid black;animation-duration: 25s;}
+#voce3{border-top: 3px solid black;animation-duration: 16s;}
+#voce4{border-top: 3px solid black;border-bottom: 3px solid black;animation-duration: 28s;}
 
 
 #homelogo
