@@ -79,6 +79,16 @@ body
   line-height: 29.5vw;
 }
 
+#menumob-op
+{
+  font-family: 'blackest';
+  font-size: 22vw;
+  line-height: 29.5vw;
+  color:#988AA5;
+}
+
+
+
 #voce1, #voce2, #voce3, #voce4
 {
   animation-name: scrollLeftmob;
@@ -99,6 +109,22 @@ body
 #voce2{border-top: 3px solid black;animation-duration: 45s;}
 #voce3{border-top: 3px solid black;animation-duration: 36s;}
 #voce4{border-top: 3px solid black;border-bottom: 3px solid black;animation-duration: 48s;}
+
+
+#openmenu .m-con-menu-opind #voce1,#openmenu .m-con-menu-opind #voce2, #openmenu .m-con-menu-opind #voce3, #openmenu .m-con-menu-opind #voce4
+{
+  border-top: 3px solid #988AA5;
+}
+
+#openmenu .m-con-menu-opind #voce4
+{
+  border-bottom: 3px solid #988AA5;
+}
+
+#openmenu .m-con-menu-opind #menumob
+{
+  color:#988AA5;
+}
 
 
 #homelogo
@@ -123,15 +149,6 @@ body
 .m-con-menu
 {
   padding-top:25vh;
-}
-
-
-#menumob-op
-{
-  font-family: 'blackest';
-  font-size: 5.5vh;
-  line-height: 10vh;
-  color:#FFF;
 }
 
 .sc
