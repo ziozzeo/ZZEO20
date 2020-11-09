@@ -1,6 +1,6 @@
 function hreffazio(link)
 {
-  gsap.fromTo('.black',{clipPath: 'polygon(0% 0%, 0% 100%, 0% 100%, 0% 0%)'},{clipPath: 'polygon(100% 0%, 100% 100%, 0% 100%, 0% 0%)',duration:1, ease: "power4.inOut" })
+  gsap.fromTo('.black',{x:-2000},{x:0,duration:1, ease: "power4.inOut" })
     gsap.fromTo('#acab',{opacity:1},{opacity:0,duration:.2})
     $(document).ready(function(){
       setTimeout(function(){
