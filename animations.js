@@ -110,6 +110,7 @@ const noise = () => {
 
 function prova()
 {
+document.getElementById('black').style.display="initial";
   document.onreadystatechange = function () {
     
     var state = document.readyState
@@ -130,6 +131,8 @@ function prova()
         },500);
     }
   }
+  setTimeout(function(){
+  document.getElementById('black').style.display="none";},3000);
 }
 
 // GESTIONE MENU MOBILE

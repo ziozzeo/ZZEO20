@@ -1,5 +1,6 @@
 function hreffazio(link)
 {
+  document.getElementById('black').style.display="initial";
   gsap.fromTo('.black',{x:-2000},{x:0,duration:1, ease: "power4.inOut" })
     gsap.fromTo('#acab',{opacity:1},{opacity:0,duration:.2})
     $(document).ready(function(){
