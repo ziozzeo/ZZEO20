@@ -76,14 +76,14 @@ body
   font-family: 'blackest';
   font-size: 22vw;
   color:#000;
-  line-height: 29.5vw;
+  line-height: 29vw;
 }
 
 #menumob-op
 {
   font-family: 'blackest';
   font-size: 22vw;
-  line-height: 29.5vw;
+  line-height: 29vw;
   color:#988AA5;
 }
 
@@ -350,21 +350,21 @@ hr{border: 2px solid black; margin-top: 2vh; margin-bottom: 1.5vh;}
   margin-left:-3vw;
 }
 
-.imgzoom1{background-image:url("MOB05.png");}
-.imgzoom2{background-image:url("MOB06.png");}
-.imgzoom3{background-image:url("MOB07.png");}
-.imgzoom4{background-image:url("MOB08.png");}
+.imgzoom1{background-image:url("MOB05.jpg");}
+.imgzoom2{background-image:url("MOB06.jpg");}
+.imgzoom3{background-image:url("MOB07.jpg");}
+.imgzoom4{background-image:url("MOB08.jpg");}
 
-.imgdoom1{background-image:url("MOB01.png");}
-.imgdoom2{background-image:url("MOB02.png");}
-.imgdoom3{background-image:url("MOB03.png");}
-.imgdoom4{background-image:url("MOB04.png");}
+.imgdoom1{background-image:url("MOB01.jpg");}
+.imgdoom2{background-image:url("MOB02.jpg");}
+.imgdoom3{background-image:url("MOB03.jpg");}
+.imgdoom4{background-image:url("MOB04.jpg");}
 
 /* ————————————————————————————— SIZES IMMAGINI SHOWCASE ———————————————————————————————————— */
 
 /* ——————————————— ILLUSTRATIONS FOGLIE ———————————————— */
 
-#cdsshow1,#cdsshow2,#cdsshow3,#cdsshow4,#cdsshow5,#cdsshow6,#cdsshow7, #cdsshow8,#nwtshow1,#nwtshow2,#nwtshow3,#nwtshow4,#sltshow1,#sltshow2,#sltshow3,#sltshow4,#sltshow5,#hvnshow,#hvnshowfin
+#cdsshow1,#cdsshow2,#cdsshow3,#cdsshow4,#cdsshow5,#cdsshow6,#cdsshow7, #cdsshow8,#nwtshow1,#nwtshow2,#nwtshow3,#nwtshow4,#nwtshow5,#sltshow1,#sltshow2,#sltshow3,#sltshow4,#sltshow5,#hvnshow,#hvnshowfin
 {
   margin:0;
   width:100vw;

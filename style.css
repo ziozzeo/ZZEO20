@@ -240,15 +240,15 @@ body
   background-repeat: no-repeat;
 }
 
-.imgzoom1{background-image:url("DIG04.png");}
-.imgzoom2{background-image:url("DIG01.png");}
-.imgzoom3{background-image:url("DIG02.png");}
-.imgzoom4{background-image:url("DIG03.png");}
+.imgzoom1{background-image:url("DIG04.jpg");}
+.imgzoom2{background-image:url("DIG01.jpg");}
+.imgzoom3{background-image:url("DIG02.jpg");}
+.imgzoom4{background-image:url("DIG03.jpg");}
 
-.imgdoom1{background-image:url("DIP01.png");}
-.imgdoom2{background-image:url("DIP02.png");}
-.imgdoom3{background-image:url("DIP03.png");}
-.imgdoom4{background-image:url("DIP04.png");}
+.imgdoom1{background-image:url("DIP01.jpg");}
+.imgdoom2{background-image:url("DIP02.jpg");}
+.imgdoom3{background-image:url("DIP03.jpg");}
+.imgdoom4{background-image:url("DIP04.jpg");}
 
 .g-con-menu
 {
