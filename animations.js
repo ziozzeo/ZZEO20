@@ -147,6 +147,7 @@ function gestmenu()
         gsap.fromTo('#Digital',{fill:"#000"},{fill:"#988AA5",duration:.2})
         gsap.fromTo('#menumob', {clipPath:'polygon(0% 100%, 100% 100%, 100% 100%, 0 100%)'}, {clipPath:'polygon(0% 0%, 100% 0%, 100% 100%, 0 100%)', duration:.8, delay:.8})
         gsap.fromTo('#bar',{backgroundColor:"#988AA5"},{backgroundColor:"#000",duration:.9})
+        gsap.fromTo('#m-con',{position:"initial"},{position:"fixed",duration:0})
     }
     else
     {
@@ -159,6 +160,7 @@ function gestmenu()
         gsap.fromTo('#Digital',{fill:"#988AA5"},{fill:"#000",duration:.2})
         gsap.fromTo('#menumob', {clipPath:'polygon(0% 0%, 100% 0%, 100% 100%, 0 100%))'}, {clipPath:'polygon(0% 100%, 100% 100%, 100% 100%, 0 100%)', duration:.6})
         gsap.fromTo('#bar',{backgroundColor:"#000"},{backgroundColor:"#988AA5",duration:.9,delay:1})
+        gsap.fromTo('#m-con',{position:"fixed"},{position:"initial",duration:0})
     }
     if(chiudoapro==0){chiudoapro=1;}else{chiudoapro=0;}
 }

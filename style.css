@@ -290,7 +290,7 @@ body
   background-position: left bottom;
   font-family: 'Poppins', sans-serif;
   font-size: 1.2rem;
-  line-height: 2.2rem;
+  line-height: 2.3rem;
   transition: 0.4s;
   margin-left: 4vh;
 }
@@ -443,12 +443,13 @@ background-color:#000;}
 
 /* ——————————————— THE HEVNKILLRS PROJECT ———————————————— */
 
+#hvnshowin{margin-top: 62.3vw;}
 #hvnshow,#hvnshowfin{margin-top: 8vw;}
-#hvnshowfin{margin-bottom: -10vw;}
+#hvnshowfin{margin-bottom: -25vw;margin-left:-1vh}
 
 /* ——————————————— ZZ-EO.COM, 2019 EDITION ———————————————— */
 
-#zzshow1{margin-left: -52vh; margin-top: 90.6vw;}
+#zzshow1{margin-left: -52vh; margin-top: 90vw;}
 #zzshow2{margin-left: -52vh;margin-top: 34vw;}
 #zzshow3{margin-left: -52vh;margin-top: 34vw;}
 #zzshow4{margin-left: -52vh; margin-top: 34vw;margin-bottom: -32vw;}
