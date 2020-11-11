@@ -216,10 +216,10 @@ body
 .sc3{grid-column: 101/151; height:84.8vh; border-right:1px solid black;}
 .sc4{grid-column: 151/202; height:84.8vh;}
 
-.aboutsc1{grid-column: 1/60; height:84.8vh;border-right:1px solid black;}
-.aboutsc2{grid-column: 60/140; height:84.8vh;border-right:1px solid black;}
+.aboutsc1{grid-column: 1/60; height:84.9vh;border-right:1px solid black;}
+.aboutsc2{grid-column: 60/140; height:84.9vh;border-right:1px solid black;}
 #aboutphoto{background-image:url("profpic.jpg");height:100%;  background-size: cover;background-repeat: no-repeat;}
-.aboutsc3{grid-column: 140/202; height:84.8vh;}
+.aboutsc3{grid-column: 140/202; height:84.9vh;}
 
 .imgcontain1, .imgcontain2, .imgcontain3, .imgcontain4
 {
