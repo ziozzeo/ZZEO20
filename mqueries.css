@@ -819,13 +819,22 @@ and (min-height:768px)
 and (max-height:1022px)
 {
 
-body{background-color: lightcoral;}
+
+.g-con{width:112.2vw;height:112.2vh;}
+
+#noise-canvas
+{
+
+  width: 112.2vw;
+  height: 112.2vh;
+
+}
 
 #homelogo
 {
-  width:27%;
-  margin-top: 28vh;
-  margin-left: 38vw;
+  width:32%;
+  margin-top: 26vh;
+  margin-left: 40vw;
   margin-right: 45vw;
 }
 
@@ -834,5 +843,17 @@ body{background-color: lightcoral;}
   font-size: 8vw;
   margin-top: 8.4vh;
 }
+
+.space
+{
+  width: 100vw;
+}
+
+.black
+{  
+width:112.2vw;
+height:112.2vh;
+}
+
 
 }
